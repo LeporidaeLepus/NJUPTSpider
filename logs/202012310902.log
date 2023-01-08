@@ -1,0 +1,57 @@
+2020-12-31 09:02:52,505 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:02:52,513 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.sogou.com valid
+2020-12-31 09:02:52,613 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.sogou.com has been connected by socket without socks proxy
+2020-12-31 09:02:52,619 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+
+2020-12-31 09:02:52,633 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.sogou.com:443
+2020-12-31 09:02:52,966 - connectionpool.py[line:393] - DEBUG: https://www.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:02:53,013 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): news.sogou.com:80
+2020-12-31 09:02:53,223 - connectionpool.py[line:393] - DEBUG: http://news.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:02:53,233 - __init__.py[line:113] - DEBUG: Building prefix dict from the default dictionary ...
+2020-12-31 09:02:53,239 - __init__.py[line:133] - DEBUG: Loading model from cache C:\Users\HP\AppData\Local\Temp\jieba.cache
+2020-12-31 09:02:55,388 - __init__.py[line:165] - DEBUG: Loading model cost 2.156 seconds.
+2020-12-31 09:02:55,393 - __init__.py[line:166] - DEBUG: Prefix dict has been built successfully.
+2020-12-31 09:02:55,396 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://news.sogou.com', 'tags': ['搜狗', '新闻']}
+2020-12-31 09:02:55,398 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): pinyin.sogou.com:80
+2020-12-31 09:02:55,578 - connectionpool.py[line:393] - DEBUG: http://pinyin.sogou.com:80 "GET / HTTP/1.1" 301 184
+2020-12-31 09:02:55,588 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): pinyin.sogou.com:443
+2020-12-31 09:02:56,012 - connectionpool.py[line:393] - DEBUG: https://pinyin.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:02:56,656 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://pinyin.sogou.com/', 'tags': ['雅黑', '输入法', '宋体', '搜狗', '浏览器', '词库', '皮肤', '野萌君']}
+2020-12-31 09:02:56,663 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): fankui.help.sogou.com:80
+2020-12-31 09:02:56,885 - connectionpool.py[line:393] - DEBUG: http://fankui.help.sogou.com:80 "GET /index.php/web/web/index/type/4 HTTP/1.1" 200 9892
+2020-12-31 09:02:56,955 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://fankui.help.sogou.com/index.php/web/web/index/type/4', 'tags': ['搜狗', '谢谢', '宝贵意见', '问题', '验证码', '邮箱', '网页', '中文']}
+2020-12-31 09:02:56,963 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): baike.sogou.com:80
+2020-12-31 09:02:57,184 - connectionpool.py[line:393] - DEBUG: http://baike.sogou.com:80 "GET /Home.v HTTP/1.1" 301 193
+2020-12-31 09:02:57,186 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): baike.sogou.com:443
+2020-12-31 09:02:57,593 - connectionpool.py[line:393] - DEBUG: https://baike.sogou.com:443 "GET /Home.v HTTP/1.1" 403 9
+2020-12-31 09:02:57,613 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://baike.sogou.com/Home.v', 'tags': []}
+2020-12-31 09:02:57,615 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): v.sogou.com:443
+2020-12-31 09:02:58,006 - connectionpool.py[line:393] - DEBUG: https://v.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:03:07,478 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://v.sogou.com/', 'tags': ['大陆', '剧情', '视频', '大卫', '内地', '小猪', '动画', '爱情']}
+2020-12-31 09:03:07,478 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): corp.sogou.com:80
+2020-12-31 09:03:07,715 - connectionpool.py[line:393] - DEBUG: http://corp.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:03:07,821 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://corp.sogou.com/', 'tags': ['搜狗', '输入法', '硬件', '公司简介', '业务', '网址', '联系', '历程']}
+2020-12-31 09:03:07,825 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): as.sogou.com:80
+2020-12-31 09:03:07,987 - connectionpool.py[line:393] - DEBUG: http://as.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:03:08,906 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://as.sogou.com/', 'tags': ['评语', '手机', '搜狗', '浏览器', '视频', '途牛', '百度', '美化']}
+2020-12-31 09:03:08,908 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.beian.gov.cn:80
+2020-12-31 09:03:09,056 - connectionpool.py[line:393] - DEBUG: http://www.beian.gov.cn:80 "GET /portal/registerSystemInfo?recordcode=11000002000025 HTTP/1.1" 200 13541
+2020-12-31 09:03:09,248 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000025', 'tags': ['网站', '备案号', '验证码', '域名', '名称', '公安部', '备案', '地址']}
+2020-12-31 09:03:09,249 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): weixin.sogou.com:80
+2020-12-31 09:03:09,397 - connectionpool.py[line:393] - DEBUG: http://weixin.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:03:09,937 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://weixin.sogou.com/', 'tags': ['新华网', '新冠', '央视网', '监委', '中央', '中央纪委', '主席', '疫情']}
+2020-12-31 09:03:09,940 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): hanyu.sogou.com:80
+2020-12-31 09:03:10,126 - connectionpool.py[line:393] - DEBUG: http://hanyu.sogou.com:80 "GET /?fr=pcweb_index_nav HTTP/1.1" 302 71
+2020-12-31 09:03:10,227 - connectionpool.py[line:393] - DEBUG: http://hanyu.sogou.com:80 "GET /?prefetchredirect=1 HTTP/1.1" 200 None
+2020-12-31 09:03:25,163 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://hanyu.sogou.com?fr=pcweb_index_nav', 'tags': ['形容', '成语', '比喻', '示例', '嘉禾', '接龙', '龙大', '嘉名']}
+2020-12-31 09:03:25,163 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://www.sogou.com
+2020-12-31 09:03:25,163 - NS_Utils.py[line:62] - INFO: root database closed
+2020-12-31 09:03:25,172 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:03:25] "POST / HTTP/1.1" 200 -
+2020-12-31 09:03:26,111 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:03:26] "GET /favicon.ico HTTP/1.1" 404 -

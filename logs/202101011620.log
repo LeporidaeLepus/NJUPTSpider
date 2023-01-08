@@ -1,0 +1,766 @@
+2021-01-01 16:20:09,506 - NS_Utils.py[line:30] - INFO: root database connected
+2021-01-01 16:20:09,511 - NS_SpiderCore.py[line:38] - INFO: Url:https://blog.csdn.net/ valid
+2021-01-01 16:20:09,559 - NS_SpiderCore.py[line:78] - INFO: Url:https://blog.csdn.net/ has been connected by socket without socks proxy
+2021-01-01 16:20:09,568 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+67c005a205110d21f213341245310a882b695c49590be40191366057ad29216c
+8830acb1e397580af770506ccd7359516849206cd91cd8039af7da8b12de139c
+7b29de4b4af9ed349f35356f352e1f4ff5ed158f9d4b18c8d7458d4998231b07
+ba02330de67933baeaaa761528b7d00edd8d8938971f4f18ae5014ffd0350f94
+c8a86c081bbee17a90b938524f146a852c5d57103357281f0a5762c800be4edd
+c8eeb00ac4dc275386a0c0a7364e38a580aa141fc3ec07727a34c1a3e8933f0c
+0908a2515827c00abeba83310910f95768547c43f225279ad50541671a604d70
+bf2a5d1eee3825d7032fbd01dd8758d2d05206db04ed168876992439f1c64ec4
+06ad72f1f0cf66da6fc4828c61a2181090f45d437e2a0e556c702281d0cd2017
+
+2021-01-01 16:20:09,572 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:10,039 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET / HTTP/1.1" 200 None
+2021-01-01 16:20:10,181 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:10,403 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /gitchatxiaomi HTTP/1.1" 200 0
+2021-01-01 16:20:10,408 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:10,408 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:10,408 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:10,408 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:10,412 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/gitchatxiaomi', 'tags': []}
+2021-01-01 16:20:10,416 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:10,576 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_45449540 HTTP/1.1" 200 0
+2021-01-01 16:20:10,578 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:10,579 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:10,579 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:10,579 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:10,579 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_45449540', 'tags': []}
+2021-01-01 16:20:10,582 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:10,769 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /SequoiaDB_Official HTTP/1.1" 200 0
+2021-01-01 16:20:10,773 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:10,773 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:10,773 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:10,773 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:10,774 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/SequoiaDB_Official', 'tags': []}
+2021-01-01 16:20:10,782 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:10,981 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /ami82/article/details/109581392 HTTP/1.1" 200 0
+2021-01-01 16:20:10,983 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:10,983 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:10,984 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:10,984 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:10,984 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/ami82/article/details/109581392#commentBox', 'tags': []}
+2021-01-01 16:20:10,987 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): bss.csdn.net:443
+2021-01-01 16:20:11,335 - connectionpool.py[line:393] - DEBUG: https://bss.csdn.net:443 "GET /cview/reg/?project_id=4335&identy_id=2152 HTTP/1.1" 200 None
+2021-01-01 16:20:11,356 - __init__.py[line:113] - DEBUG: Building prefix dict from the default dictionary ...
+2021-01-01 16:20:11,363 - __init__.py[line:133] - DEBUG: Loading model from cache C:\Users\HP\AppData\Local\Temp\jieba.cache
+2021-01-01 16:20:12,586 - __init__.py[line:165] - DEBUG: Loading model cost 1.230 seconds.
+2021-01-01 16:20:12,586 - __init__.py[line:166] - DEBUG: Prefix dict has been built successfully.
+2021-01-01 16:20:12,790 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://bss.csdn.net/cview/reg/?project_id=4335&identy_id=2152', 'tags': ['企业博客', '会员', '协议', '内容', '功能', '条款', '有权', '信息']}
+2021-01-01 16:20:12,801 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:12,992 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /zhenghongcs/article/details/109733525 HTTP/1.1" 200 0
+2021-01-01 16:20:12,994 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:12,994 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:12,994 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:12,994 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:12,994 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/zhenghongcs/article/details/109733525#commentBox', 'tags': []}
+2021-01-01 16:20:13,005 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:13,158 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_43363884/article/details/95948884 HTTP/1.1" 200 0
+2021-01-01 16:20:13,161 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:13,162 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:13,162 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:13,162 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:13,162 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_43363884/article/details/95948884', 'tags': []}
+2021-01-01 16:20:13,165 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:13,346 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_48493350 HTTP/1.1" 200 0
+2021-01-01 16:20:13,348 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:13,349 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:13,349 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:13,349 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:13,349 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_48493350', 'tags': []}
+2021-01-01 16:20:13,351 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): mp.csdn.net:443
+2021-01-01 16:20:13,531 - connectionpool.py[line:393] - DEBUG: https://mp.csdn.net:443 "GET /console/move?utm_source=blog HTTP/1.1" 200 None
+2021-01-01 16:20:13,542 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://mp.csdn.net/console/move?utm_source=blog', 'tags': ['浏览器']}
+2021-01-01 16:20:13,550 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:13,722 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /bailang_zhizun HTTP/1.1" 200 0
+2021-01-01 16:20:13,724 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:13,724 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:13,724 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:13,724 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:13,724 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/bailang_zhizun', 'tags': []}
+2021-01-01 16:20:13,726 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:13,929 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /bits_stdc/article/details/105978657 HTTP/1.1" 200 0
+2021-01-01 16:20:13,931 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:13,931 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:13,931 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:13,931 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:13,931 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/bits_stdc/article/details/105978657', 'tags': []}
+2021-01-01 16:20:13,934 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:14,094 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_44463441 HTTP/1.1" 200 0
+2021-01-01 16:20:14,096 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:14,096 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:14,096 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:14,096 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:14,096 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_44463441', 'tags': []}
+2021-01-01 16:20:14,106 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:14,287 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /fuzhongmin05/article/details/81591072 HTTP/1.1" 200 0
+2021-01-01 16:20:14,289 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:14,289 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:14,289 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:14,289 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:14,289 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/fuzhongmin05/article/details/81591072', 'tags': []}
+2021-01-01 16:20:14,302 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:14,490 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /liuxingjiaoyuC HTTP/1.1" 200 0
+2021-01-01 16:20:14,494 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:14,494 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:14,495 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:14,495 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:14,495 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/liuxingjiaoyuC', 'tags': []}
+2021-01-01 16:20:14,507 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:14,696 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_34769162/article/details/107910036 HTTP/1.1" 200 0
+2021-01-01 16:20:14,698 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:14,698 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:14,698 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:14,698 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:14,699 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_34769162/article/details/107910036', 'tags': []}
+2021-01-01 16:20:14,701 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:14,874 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /k_ksy/article/details/106233645 HTTP/1.1" 200 0
+2021-01-01 16:20:14,876 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:14,876 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:14,876 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:14,876 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:14,876 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/k_ksy/article/details/106233645', 'tags': []}
+2021-01-01 16:20:14,878 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:15,035 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_45963535/article/details/106200278 HTTP/1.1" 200 0
+2021-01-01 16:20:15,037 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:15,037 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:15,037 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:15,037 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:15,037 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_45963535/article/details/106200278', 'tags': []}
+2021-01-01 16:20:15,047 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:15,281 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /JewaveOxford/article/details/104727515 HTTP/1.1" 200 0
+2021-01-01 16:20:15,283 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:15,283 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:15,283 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:15,283 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:15,284 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/JewaveOxford/article/details/104727515#commentBox', 'tags': []}
+2021-01-01 16:20:15,285 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:15,471 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_42152577/article/details/110730114 HTTP/1.1" 200 0
+2021-01-01 16:20:15,472 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:15,473 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:15,473 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:15,473 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:15,473 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_42152577/article/details/110730114', 'tags': []}
+2021-01-01 16:20:15,475 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:15,666 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_44463441/article/details/111830910 HTTP/1.1" 200 0
+2021-01-01 16:20:15,669 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:15,669 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:15,669 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:15,669 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:15,669 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_44463441/article/details/111830910', 'tags': []}
+2021-01-01 16:20:15,671 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:15,833 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /AndrExpert/article/details/110823218 HTTP/1.1" 200 0
+2021-01-01 16:20:15,837 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:15,837 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:15,837 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:15,837 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:15,837 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/AndrExpert/article/details/110823218', 'tags': []}
+2021-01-01 16:20:15,850 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:16,062 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /devcloud/article/details/111310480 HTTP/1.1" 200 0
+2021-01-01 16:20:16,064 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:16,064 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:16,064 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:16,064 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:16,065 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/devcloud/article/details/111310480', 'tags': []}
+2021-01-01 16:20:16,067 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:16,249 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /zhouchen1998 HTTP/1.1" 200 0
+2021-01-01 16:20:16,251 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:16,251 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:16,251 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:16,251 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:16,252 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/zhouchen1998', 'tags': []}
+2021-01-01 16:20:16,253 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): bss.csdn.net:443
+2021-01-01 16:20:16,470 - connectionpool.py[line:393] - DEBUG: https://bss.csdn.net:443 "GET /m/topic/dev_survey2020 HTTP/1.1" 200 None
+2021-01-01 16:20:16,544 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://bss.csdn.net/m/topic/dev_survey2020', 'tags': ['领域专家', '开发者', '人工智能', '专家', '数据', '调查报告', '区块', '创始人']}
+2021-01-01 16:20:16,553 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:16,730 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /u010632165/article/details/107431369 HTTP/1.1" 200 0
+2021-01-01 16:20:16,732 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:16,732 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:16,732 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:16,732 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:16,732 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/u010632165/article/details/107431369', 'tags': []}
+2021-01-01 16:20:16,733 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:16,933 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /horses HTTP/1.1" 200 0
+2021-01-01 16:20:16,940 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:16,941 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:16,941 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:16,942 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:16,942 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/horses', 'tags': []}
+2021-01-01 16:20:16,958 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:17,135 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /linsongbin1/category_10231781.html HTTP/1.1" 200 0
+2021-01-01 16:20:17,137 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:17,137 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:17,137 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:17,137 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:17,137 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/linsongbin1/category_10231781.html', 'tags': []}
+2021-01-01 16:20:17,146 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:17,322 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /gitchatxiaomi/article/details/108308276 HTTP/1.1" 200 0
+2021-01-01 16:20:17,325 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:17,325 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:17,325 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:17,325 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:17,325 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/gitchatxiaomi/article/details/108308276#commentBox', 'tags': []}
+2021-01-01 16:20:17,336 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:17,508 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_43392489/article/details/110789110 HTTP/1.1" 200 0
+2021-01-01 16:20:17,510 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:17,510 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:17,510 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:17,510 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:17,510 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_43392489/article/details/110789110#commentBox', 'tags': []}
+2021-01-01 16:20:17,513 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:17,675 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /hollis_chuang/article/details/109592528 HTTP/1.1" 200 0
+2021-01-01 16:20:17,681 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:17,681 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:17,681 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:17,682 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:17,682 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/hollis_chuang/article/details/109592528', 'tags': []}
+2021-01-01 16:20:17,699 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:17,874 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qiukui111/article/details/106160745 HTTP/1.1" 200 0
+2021-01-01 16:20:17,876 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:17,876 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:17,876 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:17,876 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:17,876 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qiukui111/article/details/106160745', 'tags': []}
+2021-01-01 16:20:17,886 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:18,068 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /l_ppp HTTP/1.1" 200 0
+2021-01-01 16:20:18,073 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:18,073 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:18,074 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:18,074 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:18,074 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/l_ppp', 'tags': []}
+2021-01-01 16:20:18,077 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): live.csdn.net:443
+2021-01-01 16:20:18,489 - connectionpool.py[line:393] - DEBUG: https://live.csdn.net:443 "GET /v/27176 HTTP/1.1" 200 None
+2021-01-01 16:20:18,585 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://live.csdn.net/v/27176', 'tags': ['视频', '学亮', '手记', '编程', '详情页', '程序员', '示例', '游戏']}
+2021-01-01 16:20:18,597 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:18,773 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_34769162/article/details/107910036 HTTP/1.1" 200 0
+2021-01-01 16:20:18,775 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:18,775 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:18,775 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:18,775 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:18,775 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_34769162/article/details/107910036#commentBox', 'tags': []}
+2021-01-01 16:20:18,781 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:18,955 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /zhenghongcs HTTP/1.1" 200 0
+2021-01-01 16:20:18,957 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:18,957 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:18,957 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:18,957 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:18,957 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/zhenghongcs', 'tags': []}
+2021-01-01 16:20:18,967 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:19,152 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_41635750/article/details/109821604 HTTP/1.1" 200 0
+2021-01-01 16:20:19,154 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:19,154 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:19,154 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:19,154 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:19,155 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_41635750/article/details/109821604#commentBox', 'tags': []}
+2021-01-01 16:20:19,167 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:19,372 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /bigzql/article/details/108249658 HTTP/1.1" 200 0
+2021-01-01 16:20:19,374 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:19,374 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:19,374 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:19,374 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:19,374 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/bigzql/article/details/108249658', 'tags': []}
+2021-01-01 16:20:19,385 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:19,586 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_19600291/article/details/105633105 HTTP/1.1" 200 0
+2021-01-01 16:20:19,589 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:19,589 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:19,589 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:19,589 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:19,590 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_19600291/article/details/105633105#commentBox', 'tags': []}
+2021-01-01 16:20:19,592 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:19,763 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /wzy0623/article/details/110662140 HTTP/1.1" 200 0
+2021-01-01 16:20:19,765 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:19,765 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:19,766 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:19,766 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:19,766 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/wzy0623/article/details/110662140', 'tags': []}
+2021-01-01 16:20:19,769 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): beyondma.blog.csdn.net:443
+2021-01-01 16:20:20,182 - connectionpool.py[line:393] - DEBUG: https://beyondma.blog.csdn.net:443 "GET /article/details/111753724 HTTP/1.1" 200 None
+2021-01-01 16:20:20,610 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://beyondma.blog.csdn.net/article/details/111753724', 'tags': ['量子', '博客', '鸿蒙', '文章', '开发者', '技术', '专栏', '计算机']}
+2021-01-01 16:20:20,612 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:20,883 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET / HTTP/1.1" 200 0
+2021-01-01 16:20:20,893 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:20,893 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:20,893 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:20,893 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:20,893 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/#myCarousel', 'tags': []}
+2021-01-01 16:20:20,896 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:21,099 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /sinat_36458870/article/details/100035630 HTTP/1.1" 200 0
+2021-01-01 16:20:21,102 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:21,102 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:21,103 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:21,103 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:21,103 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/sinat_36458870/article/details/100035630', 'tags': []}
+2021-01-01 16:20:21,113 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:21,287 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /u010632165 HTTP/1.1" 200 0
+2021-01-01 16:20:21,289 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:21,289 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:21,289 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:21,289 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:21,290 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/u010632165', 'tags': []}
+2021-01-01 16:20:21,299 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:21,462 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /bigzql HTTP/1.1" 200 0
+2021-01-01 16:20:21,470 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:21,470 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:21,471 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:21,472 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:21,473 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/bigzql', 'tags': []}
+2021-01-01 16:20:21,486 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:21,682 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /bigzql/article/details/108249658 HTTP/1.1" 200 0
+2021-01-01 16:20:21,685 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:21,685 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:21,685 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:21,685 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:21,685 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/bigzql/article/details/108249658#commentBox', 'tags': []}
+2021-01-01 16:20:21,687 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): live.csdn.net:443
+2021-01-01 16:20:22,080 - connectionpool.py[line:393] - DEBUG: https://live.csdn.net:443 "GET /v/26247 HTTP/1.1" 200 None
+2021-01-01 16:20:22,261 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://live.csdn.net/v/26247', 'tags': ['教程', '大师', '全屋', '建模', '贵宾版', '技巧', '贴片机', '效果图']}
+2021-01-01 16:20:22,263 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:22,526 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /csdnsevenn HTTP/1.1" 200 0
+2021-01-01 16:20:22,533 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:22,534 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:22,534 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:22,535 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:22,535 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/csdnsevenn', 'tags': []}
+2021-01-01 16:20:22,544 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:22,720 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /alitech2017 HTTP/1.1" 200 0
+2021-01-01 16:20:22,721 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:22,721 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:22,721 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:22,722 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:22,722 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/alitech2017', 'tags': []}
+2021-01-01 16:20:22,733 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:22,915 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /u010632165/article/details/107431369 HTTP/1.1" 200 0
+2021-01-01 16:20:22,924 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:22,924 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:22,924 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:22,925 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:22,925 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/u010632165/article/details/107431369#commentBox', 'tags': []}
+2021-01-01 16:20:22,940 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:23,122 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /liuxingjiaoyuC/article/details/109766710 HTTP/1.1" 200 0
+2021-01-01 16:20:23,125 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:23,125 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:23,125 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:23,126 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:23,126 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/liuxingjiaoyuC/article/details/109766710#commentBox', 'tags': []}
+2021-01-01 16:20:23,129 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:23,340 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /u012422440/article/details/110571640 HTTP/1.1" 200 0
+2021-01-01 16:20:23,346 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:23,347 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:23,347 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:23,347 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:23,348 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/u012422440/article/details/110571640', 'tags': []}
+2021-01-01 16:20:23,363 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:23,553 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /lm_is_dc HTTP/1.1" 200 0
+2021-01-01 16:20:23,556 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:23,557 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:23,557 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:23,557 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:23,557 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/lm_is_dc', 'tags': []}
+2021-01-01 16:20:23,570 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:23,759 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_43363884 HTTP/1.1" 200 0
+2021-01-01 16:20:23,761 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:23,761 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:23,761 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:23,761 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:23,762 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_43363884', 'tags': []}
+2021-01-01 16:20:23,763 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): live.csdn.net:443
+2021-01-01 16:20:24,256 - connectionpool.py[line:393] - DEBUG: https://live.csdn.net:443 "GET /v/27175 HTTP/1.1" 200 None
+2021-01-01 16:20:24,359 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://live.csdn.net/v/27175', 'tags': ['视频', '学亮', '手记', '编程', '详情页', '程序员', '示例', '游戏']}
+2021-01-01 16:20:24,366 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:24,552 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /lm_is_dc/article/details/80048400 HTTP/1.1" 200 0
+2021-01-01 16:20:24,559 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:24,559 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:24,559 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:24,559 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:24,560 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/lm_is_dc/article/details/80048400#commentBox', 'tags': []}
+2021-01-01 16:20:24,573 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:24,746 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /zhenghongcs/article/details/109733525 HTTP/1.1" 200 0
+2021-01-01 16:20:24,748 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:24,748 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:24,748 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:24,748 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:24,748 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/zhenghongcs/article/details/109733525', 'tags': []}
+2021-01-01 16:20:24,759 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:24,984 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_43392489/article/details/110789110 HTTP/1.1" 200 0
+2021-01-01 16:20:24,986 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:24,986 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:24,986 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:24,986 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:24,987 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_43392489/article/details/110789110', 'tags': []}
+2021-01-01 16:20:24,988 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:25,212 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /blogdevteam/article/details/103478461 HTTP/1.1" 200 0
+2021-01-01 16:20:25,214 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:25,215 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:25,215 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:25,215 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:25,215 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/blogdevteam/article/details/103478461#博客专家', 'tags': []}
+2021-01-01 16:20:25,219 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:25,395 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /devcloud HTTP/1.1" 200 0
+2021-01-01 16:20:25,397 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:25,398 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:25,398 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:25,398 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:25,398 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/devcloud', 'tags': []}
+2021-01-01 16:20:25,409 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:25,585 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qiukui111/article/details/106160745 HTTP/1.1" 200 0
+2021-01-01 16:20:25,587 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:25,587 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:25,587 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:25,587 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:25,587 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qiukui111/article/details/106160745#commentBox', 'tags': []}
+2021-01-01 16:20:25,593 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:25,793 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_27751965/article/details/107681017 HTTP/1.1" 200 0
+2021-01-01 16:20:25,795 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:25,795 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:25,795 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:25,795 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:25,795 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_27751965/article/details/107681017', 'tags': []}
+2021-01-01 16:20:25,806 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:25,967 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /liuxingjiaoyuC/article/details/109766710 HTTP/1.1" 200 0
+2021-01-01 16:20:25,969 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:25,969 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:25,969 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:25,969 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:25,969 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/liuxingjiaoyuC/article/details/109766710', 'tags': []}
+2021-01-01 16:20:25,971 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): marketing.csdn.net:443
+2021-01-01 16:20:26,162 - connectionpool.py[line:393] - DEBUG: https://marketing.csdn.net:443 "GET /p/06e460343ed00f1eb4178b3d64c8003c HTTP/1.1" 200 None
+2021-01-01 16:20:26,191 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://marketing.csdn.net/p/06e460343ed00f1eb4178b3d64c8003c', 'tags': ['页脚', '浏览器', '网页', '组件', '宽度', '元素']}
+2021-01-01 16:20:26,203 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:26,370 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /JewaveOxford HTTP/1.1" 200 0
+2021-01-01 16:20:26,372 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:26,372 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:26,372 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:26,372 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:26,372 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/JewaveOxford', 'tags': []}
+2021-01-01 16:20:26,382 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:26,578 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qiukui111 HTTP/1.1" 200 0
+2021-01-01 16:20:26,584 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:26,584 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:26,585 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:26,585 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:26,586 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qiukui111', 'tags': []}
+2021-01-01 16:20:26,602 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:26,779 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /fuzhongmin05 HTTP/1.1" 200 0
+2021-01-01 16:20:26,781 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:26,781 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:26,781 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:26,781 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:26,781 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/fuzhongmin05', 'tags': []}
+2021-01-01 16:20:26,792 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:26,976 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /ami82 HTTP/1.1" 200 0
+2021-01-01 16:20:26,985 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:26,985 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:26,986 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:26,986 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:26,987 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/ami82', 'tags': []}
+2021-01-01 16:20:26,993 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): live.csdn.net:443
+2021-01-01 16:20:27,417 - connectionpool.py[line:393] - DEBUG: https://live.csdn.net:443 "GET /v/18297 HTTP/1.1" 200 None
+2021-01-01 16:20:27,532 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://live.csdn.net/v/18297', 'tags': ['禅道', '程序', '视频', '区别', '计划', '详情页', '看板', '牧羊犬']}
+2021-01-01 16:20:27,535 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:27,727 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /songguangfan/article/details/109890171 HTTP/1.1" 200 0
+2021-01-01 16:20:27,729 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:27,729 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:27,729 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:27,729 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:27,729 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/songguangfan/article/details/109890171', 'tags': []}
+2021-01-01 16:20:27,739 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:27,908 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /gitchatxiaomi/article/details/108308276 HTTP/1.1" 200 0
+2021-01-01 16:20:27,912 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:27,912 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:27,912 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:27,912 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:27,913 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/gitchatxiaomi/article/details/108308276', 'tags': []}
+2021-01-01 16:20:27,917 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): marketing.csdn.net:443
+2021-01-01 16:20:28,084 - connectionpool.py[line:393] - DEBUG: https://marketing.csdn.net:443 "GET /p/2eb579df2a34226edce6b2e84c396de2?utm_source=1881349364 HTTP/1.1" 200 None
+2021-01-01 16:20:28,100 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://marketing.csdn.net/p/2eb579df2a34226edce6b2e84c396de2?utm_source=1881349364', 'tags': ['页脚', '浏览器', '网页', '组件', '宽度', '元素']}
+2021-01-01 16:20:28,112 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:28,291 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_34769162 HTTP/1.1" 200 0
+2021-01-01 16:20:28,292 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:28,292 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:28,293 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:28,293 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:28,293 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_34769162', 'tags': []}
+2021-01-01 16:20:28,304 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:28,467 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /JewaveOxford/article/details/104727515 HTTP/1.1" 200 0
+2021-01-01 16:20:28,469 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:28,469 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:28,469 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:28,469 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:28,470 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/JewaveOxford/article/details/104727515', 'tags': []}
+2021-01-01 16:20:28,481 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:28,670 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /bailang_zhizun/article/details/79310419 HTTP/1.1" 200 0
+2021-01-01 16:20:28,673 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:28,673 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:28,673 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:28,673 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:28,673 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/bailang_zhizun/article/details/79310419#commentBox', 'tags': []}
+2021-01-01 16:20:28,675 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:28,851 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_19600291 HTTP/1.1" 200 0
+2021-01-01 16:20:28,856 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:28,856 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:28,856 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:28,856 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:28,857 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_19600291', 'tags': []}
+2021-01-01 16:20:28,862 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:29,010 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /tensorflowforum/article/details/109832059 HTTP/1.1" 200 0
+2021-01-01 16:20:29,012 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:29,012 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:29,012 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:29,012 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:29,012 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/tensorflowforum/article/details/109832059', 'tags': []}
+2021-01-01 16:20:29,014 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:29,199 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /lianshaohua/article/details/110850471 HTTP/1.1" 200 0
+2021-01-01 16:20:29,203 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:29,203 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:29,204 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:29,204 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:29,205 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/lianshaohua/article/details/110850471', 'tags': []}
+2021-01-01 16:20:29,221 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:29,403 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /devcloud/article/details/111310480 HTTP/1.1" 200 0
+2021-01-01 16:20:29,404 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:29,404 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:29,404 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:29,404 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:29,405 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/devcloud/article/details/111310480#commentBox', 'tags': []}
+2021-01-01 16:20:29,415 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:29,596 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /fuzhongmin05/article/details/81591072 HTTP/1.1" 200 0
+2021-01-01 16:20:29,598 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:29,598 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:29,599 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:29,599 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:29,599 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/fuzhongmin05/article/details/81591072#commentBox', 'tags': []}
+2021-01-01 16:20:29,610 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:29,789 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_43363884/article/details/95948884 HTTP/1.1" 200 0
+2021-01-01 16:20:29,801 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:29,801 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:29,801 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:29,801 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:29,801 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_43363884/article/details/95948884#commentBox', 'tags': []}
+2021-01-01 16:20:29,803 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): live.csdn.net:443
+2021-01-01 16:20:30,191 - connectionpool.py[line:393] - DEBUG: https://live.csdn.net:443 "GET /v/25511 HTTP/1.1" 200 None
+2021-01-01 16:20:30,299 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://live.csdn.net/v/25511', 'tags': ['视频', '环境', '详情页', '残阳', '程序员', '通哥', '血色', '源码']}
+2021-01-01 16:20:30,309 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): zyc88.blog.csdn.net:443
+2021-01-01 16:20:30,812 - connectionpool.py[line:393] - DEBUG: https://zyc88.blog.csdn.net:443 "GET /article/details/112007608 HTTP/1.1" 200 None
+2021-01-01 16:20:31,094 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://zyc88.blog.csdn.net/article/details/112007608', 'tags': ['开源', '运维', '博客', '数据', '助力', '项目', '技术', '用户']}
+2021-01-01 16:20:31,096 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:31,252 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /MeituanTech HTTP/1.1" 200 0
+2021-01-01 16:20:31,254 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:31,254 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:31,254 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:31,254 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:31,254 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/MeituanTech', 'tags': []}
+2021-01-01 16:20:31,266 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:31,437 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_27751965 HTTP/1.1" 200 0
+2021-01-01 16:20:31,440 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:31,440 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:31,440 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:31,440 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:31,440 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_27751965', 'tags': []}
+2021-01-01 16:20:31,443 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:31,643 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /a419240016/article/details/110822134 HTTP/1.1" 200 0
+2021-01-01 16:20:31,644 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:31,644 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:31,644 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:31,645 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:31,645 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/a419240016/article/details/110822134', 'tags': []}
+2021-01-01 16:20:31,648 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:31,844 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /experts/rule.html HTTP/1.1" 200 0
+2021-01-01 16:20:31,846 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:31,846 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:31,847 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:31,847 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:31,847 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/experts/rule.html', 'tags': []}
+2021-01-01 16:20:31,857 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:32,083 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_43392489 HTTP/1.1" 200 0
+2021-01-01 16:20:32,085 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:32,085 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:32,085 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:32,085 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:32,085 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_43392489', 'tags': []}
+2021-01-01 16:20:32,096 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:32,295 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /bailang_zhizun/article/details/79310419 HTTP/1.1" 200 0
+2021-01-01 16:20:32,299 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:32,300 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:32,300 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:32,300 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:32,300 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/bailang_zhizun/article/details/79310419', 'tags': []}
+2021-01-01 16:20:32,310 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:32,478 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /ami82/article/details/109581392 HTTP/1.1" 200 0
+2021-01-01 16:20:32,480 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:32,480 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:32,480 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:32,480 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:32,480 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/ami82/article/details/109581392', 'tags': []}
+2021-01-01 16:20:32,487 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:32,671 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_41635750 HTTP/1.1" 200 0
+2021-01-01 16:20:32,674 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:32,674 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:32,674 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:32,674 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:32,675 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_41635750', 'tags': []}
+2021-01-01 16:20:32,677 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:32,853 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /rxh811/article/details/106223630 HTTP/1.1" 200 0
+2021-01-01 16:20:32,854 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:32,854 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:32,855 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:32,855 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:32,855 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/rxh811/article/details/106223630', 'tags': []}
+2021-01-01 16:20:32,866 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:33,027 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /lm_is_dc/article/details/80048400 HTTP/1.1" 200 0
+2021-01-01 16:20:33,030 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:33,030 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:33,030 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:33,030 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:33,031 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/lm_is_dc/article/details/80048400', 'tags': []}
+2021-01-01 16:20:33,034 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): live.csdn.net:443
+2021-01-01 16:20:33,354 - connectionpool.py[line:393] - DEBUG: https://live.csdn.net:443 "GET /v/24399 HTTP/1.1" 200 None
+2021-01-01 16:20:33,457 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://live.csdn.net/v/24399', 'tags': ['视频', '详情页', '程序员', '沙塔', '游戏', '桌面图标', '算法', '软件']}
+2021-01-01 16:20:33,459 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:33,625 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /UbuntuTouch HTTP/1.1" 200 0
+2021-01-01 16:20:33,627 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:33,627 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:33,627 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:33,627 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:33,627 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/UbuntuTouch', 'tags': []}
+2021-01-01 16:20:33,629 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:33,790 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /umengplus/article/details/110526143 HTTP/1.1" 200 0
+2021-01-01 16:20:33,793 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:33,793 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:33,793 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:33,793 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:33,793 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/umengplus/article/details/110526143', 'tags': []}
+2021-01-01 16:20:33,796 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:34,008 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /csdnsevenn/article/details/111387076 HTTP/1.1" 200 0
+2021-01-01 16:20:34,010 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:34,010 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:34,010 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:34,010 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:34,010 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/csdnsevenn/article/details/111387076', 'tags': []}
+2021-01-01 16:20:34,020 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:34,194 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_27751965/article/details/107681017 HTTP/1.1" 200 0
+2021-01-01 16:20:34,196 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:34,196 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:34,196 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:34,196 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:34,196 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_27751965/article/details/107681017#commentBox', 'tags': []}
+2021-01-01 16:20:34,198 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:34,381 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /blogdevteam/ HTTP/1.1" 200 0
+2021-01-01 16:20:34,389 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:34,389 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:34,389 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:34,389 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:34,390 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/blogdevteam/', 'tags': []}
+2021-01-01 16:20:34,393 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): live.csdn.net:443
+2021-01-01 16:20:34,715 - connectionpool.py[line:393] - DEBUG: https://live.csdn.net:443 "GET /v/25904 HTTP/1.1" 200 None
+2021-01-01 16:20:34,832 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://live.csdn.net/v/25904', 'tags': ['视频', '详情页', '爬虫', '程序员', '拉勾', '游戏', '桌面图标', '算法']}
+2021-01-01 16:20:34,842 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:35,055 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /l_ppp/article/details/107820234 HTTP/1.1" 200 0
+2021-01-01 16:20:35,058 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:35,059 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:35,059 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:35,059 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:35,059 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/l_ppp/article/details/107820234', 'tags': []}
+2021-01-01 16:20:35,061 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): marketing.csdn.net:443
+2021-01-01 16:20:35,244 - connectionpool.py[line:393] - DEBUG: https://marketing.csdn.net:443 "GET /p/30af3ac3a1dc0dae44e5a8214505a865?utm_source=748512022 HTTP/1.1" 200 None
+2021-01-01 16:20:35,259 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://marketing.csdn.net/p/30af3ac3a1dc0dae44e5a8214505a865?utm_source=748512022', 'tags': ['页脚', '浏览器', '网页', '组件', '宽度', '元素']}
+2021-01-01 16:20:35,270 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:35,445 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /weixin_41635750/article/details/109821604 HTTP/1.1" 200 0
+2021-01-01 16:20:35,449 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:35,449 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:35,449 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:35,449 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:35,450 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/weixin_41635750/article/details/109821604', 'tags': []}
+2021-01-01 16:20:35,462 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:35,633 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /l_ppp/article/details/107820234 HTTP/1.1" 200 0
+2021-01-01 16:20:35,635 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:35,635 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:35,635 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:35,635 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:35,635 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/l_ppp/article/details/107820234#commentBox', 'tags': []}
+2021-01-01 16:20:35,645 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:35,817 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /qq_19600291/article/details/105633105 HTTP/1.1" 200 0
+2021-01-01 16:20:35,819 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:35,819 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:35,819 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:35,820 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:35,820 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/qq_19600291/article/details/105633105', 'tags': []}
+2021-01-01 16:20:35,822 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:35,991 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /xufive/article/details/109269626 HTTP/1.1" 200 0
+2021-01-01 16:20:35,992 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:35,992 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:35,993 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:35,993 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:35,993 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/xufive/article/details/109269626', 'tags': []}
+2021-01-01 16:20:35,994 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): blog.csdn.net:443
+2021-01-01 16:20:36,165 - connectionpool.py[line:393] - DEBUG: https://blog.csdn.net:443 "GET /zchdjb/article/details/110427195 HTTP/1.1" 200 0
+2021-01-01 16:20:36,167 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:36,167 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:36,167 - universaldetector.py[line:234] - DEBUG: no data received!
+2021-01-01 16:20:36,167 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2021-01-01 16:20:36,168 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://blog.csdn.net/zchdjb/article/details/110427195', 'tags': []}
+2021-01-01 16:20:36,168 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://blog.csdn.net/
+2021-01-01 16:20:36,170 - NS_Utils.py[line:62] - INFO: root database closed
+2021-01-01 16:20:36,171 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 16:20:36] "POST / HTTP/1.1" 200 -
+2021-01-01 16:20:36,442 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 16:20:36] "GET /favicon.ico HTTP/1.1" 404 -
+2021-01-01 16:20:54,301 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 16:20:54] "GET / HTTP/1.1" 200 -
+2021-01-01 16:20:54,764 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 16:20:54] "GET /static/bootstrap/ico/favicon.png HTTP/1.1" 304 -
+2021-01-01 16:21:01,038 - NS_Utils.py[line:30] - INFO: root database connected
+2021-01-01 16:21:01,039 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.sogou.com valid
+2021-01-01 16:21:01,065 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.sogou.com has been connected by socket without socks proxy
+2021-01-01 16:21:01,066 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+67c005a205110d21f213341245310a882b695c49590be40191366057ad29216c
+8830acb1e397580af770506ccd7359516849206cd91cd8039af7da8b12de139c
+7b29de4b4af9ed349f35356f352e1f4ff5ed158f9d4b18c8d7458d4998231b07
+ba02330de67933baeaaa761528b7d00edd8d8938971f4f18ae5014ffd0350f94
+c8a86c081bbee17a90b938524f146a852c5d57103357281f0a5762c800be4edd
+c8eeb00ac4dc275386a0c0a7364e38a580aa141fc3ec07727a34c1a3e8933f0c
+0908a2515827c00abeba83310910f95768547c43f225279ad50541671a604d70
+bf2a5d1eee3825d7032fbd01dd8758d2d05206db04ed168876992439f1c64ec4
+06ad72f1f0cf66da6fc4828c61a2181090f45d437e2a0e556c702281d0cd2017
+
+2021-01-01 16:21:01,069 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.sogou.com:443
+2021-01-01 16:21:01,196 - connectionpool.py[line:393] - DEBUG: https://www.sogou.com:443 "GET / HTTP/1.1" 200 None
+2021-01-01 16:21:01,208 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): gouwu.sogou.com:80
+2021-01-01 16:21:01,248 - connectionpool.py[line:393] - DEBUG: http://gouwu.sogou.com:80 "GET / HTTP/1.1" 200 None
+2021-01-01 16:21:01,271 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://gouwu.sogou.com/', 'tags': ['搜狗', '购物', '比价', '图片', '输入法', '网购', '扫码', '浏览器']}
+2021-01-01 16:21:01,272 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): map.sogou.com:80
+2021-01-01 16:21:01,318 - connectionpool.py[line:393] - DEBUG: http://map.sogou.com:80 "GET / HTTP/1.1" 200 20390
+2021-01-01 16:21:01,427 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://map.sogou.com', 'tags': ['地图', '搜狗', '电子地图', '高清', '页面', '网页', '手机', '卫星']}
+2021-01-01 16:21:01,428 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.12377.cn:80
+2021-01-01 16:21:01,528 - connectionpool.py[line:393] - DEBUG: http://www.12377.cn:80 "GET / HTTP/1.1" 301 None
+2021-01-01 16:21:01,600 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.12377.cn:443
+2021-01-01 16:21:01,813 - connectionpool.py[line:393] - DEBUG: https://www.12377.cn:443 "GET / HTTP/1.1" 200 None
+2021-01-01 16:21:01,975 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.12377.cn', 'tags': ['网信', '网络', '辟谣', '信息', '中华人民共和国', '指南', '电信', '小类']}
+2021-01-01 16:21:01,976 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): fanyi.sogou.com:80
+2021-01-01 16:21:02,081 - connectionpool.py[line:393] - DEBUG: http://fanyi.sogou.com:80 "GET /?fr=common_index_nav_pc HTTP/1.1" 200 None
+2021-01-01 16:21:02,277 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://fanyi.sogou.com?fr=common_index_nav_pc', 'tags': ['丈夫', '词典', '牛津', '搜狗', '老公', '自动检测', '家庭成员', '农活']}
+2021-01-01 16:21:02,280 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): b.sogou.com:80
+2021-01-01 16:21:02,420 - connectionpool.py[line:393] - DEBUG: http://b.sogou.com:80 "GET / HTTP/1.1" 302 62
+2021-01-01 16:21:02,427 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): b.sogou.com:443
+2021-01-01 16:21:02,602 - connectionpool.py[line:393] - DEBUG: https://b.sogou.com:443 "GET /pca/ HTTP/1.1" 200 None
+2021-01-01 16:21:02,664 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://b.sogou.com/', 'tags': ['场景', '搜狗', '精准', '广告', '输入法', '客户', '聊天', '日语']}
+2021-01-01 16:21:02,666 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.beian.gov.cn:80
+2021-01-01 16:21:02,764 - connectionpool.py[line:393] - DEBUG: http://www.beian.gov.cn:80 "GET /portal/registerSystemInfo?recordcode=11000002000025 HTTP/1.1" 200 13541
+2021-01-01 16:21:02,918 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000025', 'tags': ['网站', '备案号', '验证码', '域名', '名称', '公安部', '备案', '地址']}
+2021-01-01 16:21:02,919 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://www.sogou.com
+2021-01-01 16:21:02,919 - NS_Utils.py[line:62] - INFO: root database closed
+2021-01-01 16:21:02,919 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 16:21:02] "POST / HTTP/1.1" 200 -
+2021-01-01 17:47:56,670 - _internal.py[line:88] - INFO:  * Detected change in 'C:\\Users\\HP\\Desktop\\NjuptSpider\\NS_Utils.py', reloading

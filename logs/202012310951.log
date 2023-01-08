@@ -1,0 +1,613 @@
+2020-12-31 09:51:53,579 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:51:53,582 - NS_SpiderCore.py[line:38] - INFO: Url:https://zhtj.youth.cn/zhtj/ valid
+2020-12-31 09:51:53,648 - NS_SpiderCore.py[line:78] - INFO: Url:https://zhtj.youth.cn/zhtj/ has been connected by socket without socks proxy
+2020-12-31 09:51:53,653 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+67c005a205110d21f213341245310a882b695c49590be40191366057ad29216c
+8830acb1e397580af770506ccd7359516849206cd91cd8039af7da8b12de139c
+7b29de4b4af9ed349f35356f352e1f4ff5ed158f9d4b18c8d7458d4998231b07
+ba02330de67933baeaaa761528b7d00edd8d8938971f4f18ae5014ffd0350f94
+c8a86c081bbee17a90b938524f146a852c5d57103357281f0a5762c800be4edd
+
+2020-12-31 09:51:53,670 - NS_Utils.py[line:53] - INFO: graph of https://zhtj.youth.cn/zhtj/ inited
+2020-12-31 09:51:53,680 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): zhtj.youth.cn:443
+2020-12-31 09:51:54,092 - connectionpool.py[line:393] - DEBUG: https://zhtj.youth.cn:443 "GET /zhtj/ HTTP/1.1" 200 None
+2020-12-31 09:51:54,102 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://zhtj.youth.cn/zhtj/
+2020-12-31 09:51:54,102 - NS_Utils.py[line:62] - INFO: root database closed
+2020-12-31 09:51:54,102 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:51:54] "POST / HTTP/1.1" 200 -
+2020-12-31 09:52:18,937 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:52:18] "GET / HTTP/1.1" 200 -
+2020-12-31 09:52:22,781 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:52:22,782 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.icourse163.org/ valid
+2020-12-31 09:52:22,873 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.icourse163.org/ has been connected by socket without socks proxy
+2020-12-31 09:52:22,880 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+67c005a205110d21f213341245310a882b695c49590be40191366057ad29216c
+8830acb1e397580af770506ccd7359516849206cd91cd8039af7da8b12de139c
+7b29de4b4af9ed349f35356f352e1f4ff5ed158f9d4b18c8d7458d4998231b07
+ba02330de67933baeaaa761528b7d00edd8d8938971f4f18ae5014ffd0350f94
+c8a86c081bbee17a90b938524f146a852c5d57103357281f0a5762c800be4edd
+c8eeb00ac4dc275386a0c0a7364e38a580aa141fc3ec07727a34c1a3e8933f0c
+
+2020-12-31 09:52:22,896 - NS_Utils.py[line:53] - INFO: graph of https://www.icourse163.org/ inited
+2020-12-31 09:52:22,911 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.icourse163.org:443
+2020-12-31 09:52:23,198 - connectionpool.py[line:393] - DEBUG: https://www.icourse163.org:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:52:23,290 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://www.icourse163.org/
+2020-12-31 09:52:23,293 - NS_Utils.py[line:62] - INFO: root database closed
+2020-12-31 09:52:23,297 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:52:23] "POST / HTTP/1.1" 200 -
+2020-12-31 09:52:36,505 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:52:36] "GET / HTTP/1.1" 200 -
+2020-12-31 09:52:39,791 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:52:39,793 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.icourse163.org valid
+2020-12-31 09:52:39,856 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.icourse163.org has been connected by socket without socks proxy
+2020-12-31 09:52:39,859 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+67c005a205110d21f213341245310a882b695c49590be40191366057ad29216c
+8830acb1e397580af770506ccd7359516849206cd91cd8039af7da8b12de139c
+7b29de4b4af9ed349f35356f352e1f4ff5ed158f9d4b18c8d7458d4998231b07
+ba02330de67933baeaaa761528b7d00edd8d8938971f4f18ae5014ffd0350f94
+c8a86c081bbee17a90b938524f146a852c5d57103357281f0a5762c800be4edd
+c8eeb00ac4dc275386a0c0a7364e38a580aa141fc3ec07727a34c1a3e8933f0c
+0908a2515827c00abeba83310910f95768547c43f225279ad50541671a604d70
+
+2020-12-31 09:52:39,875 - NS_Utils.py[line:53] - INFO: graph of https://www.icourse163.org inited
+2020-12-31 09:52:39,876 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.icourse163.org:443
+2020-12-31 09:52:40,082 - connectionpool.py[line:393] - DEBUG: https://www.icourse163.org:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:52:40,154 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://www.icourse163.org
+2020-12-31 09:52:40,161 - NS_Utils.py[line:62] - INFO: root database closed
+2020-12-31 09:52:40,164 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:52:40] "POST / HTTP/1.1" 200 -
+2020-12-31 09:52:42,401 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:52:42] "GET / HTTP/1.1" 200 -
+2020-12-31 09:52:47,289 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:52:47,291 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.sogou.com valid
+2020-12-31 09:52:47,381 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.sogou.com has been connected by socket without socks proxy
+2020-12-31 09:52:47,394 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+67c005a205110d21f213341245310a882b695c49590be40191366057ad29216c
+8830acb1e397580af770506ccd7359516849206cd91cd8039af7da8b12de139c
+7b29de4b4af9ed349f35356f352e1f4ff5ed158f9d4b18c8d7458d4998231b07
+ba02330de67933baeaaa761528b7d00edd8d8938971f4f18ae5014ffd0350f94
+c8a86c081bbee17a90b938524f146a852c5d57103357281f0a5762c800be4edd
+c8eeb00ac4dc275386a0c0a7364e38a580aa141fc3ec07727a34c1a3e8933f0c
+0908a2515827c00abeba83310910f95768547c43f225279ad50541671a604d70
+bf2a5d1eee3825d7032fbd01dd8758d2d05206db04ed168876992439f1c64ec4
+
+2020-12-31 09:52:47,399 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.sogou.com:443
+2020-12-31 09:52:47,704 - connectionpool.py[line:393] - DEBUG: https://www.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:52:47,729 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.sogou.com:80
+2020-12-31 09:52:47,841 - connectionpool.py[line:393] - DEBUG: http://www.sogou.com:80 "GET /docs/terms.htm?v=1 HTTP/1.1" 200 None
+2020-12-31 09:52:47,984 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.sogou.com/docs/terms.htm?v=1', 'tags': ['搜狗', '网页', '搜索引擎', '网站', '声明', '公司', '内容', '信息网络']}
+2020-12-31 09:52:47,985 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): v.sogou.com:443
+2020-12-31 09:52:48,333 - connectionpool.py[line:393] - DEBUG: https://v.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:52:58,161 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://v.sogou.com/', 'tags': ['大陆', '剧情', '视频', '大卫', '内地', '小猪', '动画', '爱情']}
+2020-12-31 09:52:58,176 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): fankui.help.sogou.com:80
+2020-12-31 09:52:58,406 - connectionpool.py[line:393] - DEBUG: http://fankui.help.sogou.com:80 "GET /index.php/web/web/index/type/4 HTTP/1.1" 200 9892
+2020-12-31 09:52:58,477 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://fankui.help.sogou.com/index.php/web/web/index/type/4', 'tags': ['搜狗', '谢谢', '宝贵意见', '问题', '验证码', '邮箱', '网页', '中文']}
+2020-12-31 09:52:58,495 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.sogou.com:80
+2020-12-31 09:52:58,686 - connectionpool.py[line:393] - DEBUG: http://www.sogou.com:80 "GET /docs/more.htm?v=1 HTTP/1.1" 200 None
+2020-12-31 09:52:58,906 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.sogou.com/docs/more.htm?v=1', 'tags': ['搜狗', '权威', '英文', '手机', '海量', '网页', '信息', '输入法']}
+2020-12-31 09:52:58,908 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): 123.sogou.com:80
+2020-12-31 09:52:59,130 - connectionpool.py[line:393] - DEBUG: http://123.sogou.com:80 "GET / HTTP/1.1" 302 154
+2020-12-31 09:52:59,143 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): 123.sogou.com:443
+2020-12-31 09:52:59,597 - connectionpool.py[line:393] - DEBUG: https://123.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:53:00,617 - sjisprober.py[line:61] - DEBUG: SHIFT_JIS Japanese prober hit error at byte 590
+2020-12-31 09:53:00,617 - eucjpprober.py[line:62] - DEBUG: EUC-JP Japanese prober hit error at byte 573
+2020-12-31 09:53:00,624 - mbcharsetprober.py[line:66] - DEBUG: GB2312 Chinese prober hit error at byte 1127
+2020-12-31 09:53:00,634 - mbcharsetprober.py[line:66] - DEBUG: EUC-KR Korean prober hit error at byte 573
+2020-12-31 09:53:00,639 - mbcharsetprober.py[line:66] - DEBUG: CP949 Korean prober hit error at byte 573
+2020-12-31 09:53:00,644 - mbcharsetprober.py[line:66] - DEBUG: Big5 Chinese prober hit error at byte 574
+2020-12-31 09:53:00,644 - mbcharsetprober.py[line:66] - DEBUG: EUC-TW Taiwan prober hit error at byte 573
+2020-12-31 09:53:00,853 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:53:00,924 - sbcharsetprober.py[line:119] - DEBUG: MacCyrillic confidence = 0.017520715252811486, below negative shortcut threshhold 0.05
+2020-12-31 09:53:01,179 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-7 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:53:01,245 - sbcharsetprober.py[line:119] - DEBUG: windows-1253 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:53:01,374 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:53:01,501 - sbcharsetprober.py[line:119] - DEBUG: windows-1251 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:53:02,181 - sbcharsetprober.py[line:119] - DEBUG: windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:53:02,261 - sbcharsetprober.py[line:119] - DEBUG: windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:53:02,493 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.0
+2020-12-31 09:53:02,493 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.0
+2020-12-31 09:53:02,495 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:53:02,496 - charsetgroupprober.py[line:97] - DEBUG: MacCyrillic not active
+2020-12-31 09:53:02,497 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.06563974604902745
+2020-12-31 09:53:02,499 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.05775500481545157
+2020-12-31 09:53:02,499 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-7 not active
+2020-12-31 09:53:02,501 - charsetgroupprober.py[line:97] - DEBUG: windows-1253 not active
+2020-12-31 09:53:02,503 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:53:02,504 - charsetgroupprober.py[line:97] - DEBUG: windows-1251 not active
+2020-12-31 09:53:02,505 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.0594921568791114
+2020-12-31 09:53:02,507 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.4638213265972546
+2020-12-31 09:53:02,508 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:53:02,508 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:53:02,511 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:53:02,512 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.0
+2020-12-31 09:53:02,513 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.0
+2020-12-31 09:53:02,513 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:53:02,515 - charsetgroupprober.py[line:97] - DEBUG: MacCyrillic not active
+2020-12-31 09:53:02,516 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.06563974604902745
+2020-12-31 09:53:02,516 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.05775500481545157
+2020-12-31 09:53:02,519 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-7 not active
+2020-12-31 09:53:02,521 - charsetgroupprober.py[line:97] - DEBUG: windows-1253 not active
+2020-12-31 09:53:02,522 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:53:02,523 - charsetgroupprober.py[line:97] - DEBUG: windows-1251 not active
+2020-12-31 09:53:02,525 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.0594921568791114
+2020-12-31 09:53:02,526 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.4638213265972546
+2020-12-31 09:53:02,527 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:53:02,528 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:53:02,528 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:53:02,531 - dammit.py[line:381] - WARNING: Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2020-12-31 09:53:03,680 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://123.sogou.com/', 'tags': ['搜狗', '热门', '特价', '游戏', '综艺', '小游戏', '淘宝', '电视剧']}
+2020-12-31 09:53:03,685 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): map.sogou.com:80
+2020-12-31 09:53:03,857 - connectionpool.py[line:393] - DEBUG: http://map.sogou.com:80 "GET / HTTP/1.1" 200 20390
+2020-12-31 09:53:04,048 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://map.sogou.com', 'tags': ['地图', '搜狗', '电子地图', '高清', '页面', '网页', '手机', '卫星']}
+2020-12-31 09:53:04,049 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.12377.cn:80
+2020-12-31 09:53:04,320 - connectionpool.py[line:393] - DEBUG: http://www.12377.cn:80 "GET / HTTP/1.1" 301 None
+2020-12-31 09:53:04,439 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.12377.cn:443
+2020-12-31 09:53:04,856 - connectionpool.py[line:393] - DEBUG: https://www.12377.cn:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:53:05,451 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.12377.cn', 'tags': ['网信', '网络', '互联网', '信息', '中华人民共和国', '指南', '电信', '小类']}
+2020-12-31 09:53:05,494 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): wenwen.sogou.com:443
+2020-12-31 09:53:05,914 - connectionpool.py[line:393] - DEBUG: https://wenwen.sogou.com:443 "GET /?ch=websearch HTTP/1.1" 403 9
+2020-12-31 09:53:05,914 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://wenwen.sogou.com/?ch=websearch', 'tags': []}
+2020-12-31 09:53:05,924 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): english.sogou.com:80
+2020-12-31 09:53:06,157 - connectionpool.py[line:393] - DEBUG: http://english.sogou.com:80 "GET /?fr=pcweb_index_nav HTTP/1.1" 200 None
+2020-12-31 09:53:06,435 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://english.sogou.com?fr=pcweb_index_nav', 'tags': ['搜狗', '情书', '英文', '猫咪', '资讯', '雅思考试', '防护用品', '公网']}
+2020-12-31 09:53:06,447 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): mingyi.sogou.com:80
+2020-12-31 09:53:06,664 - connectionpool.py[line:393] - DEBUG: http://mingyi.sogou.com:80 "GET /?fr=common_index_nav HTTP/1.1" 200 None
+2020-12-31 09:53:06,713 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://mingyi.sogou.com?fr=common_index_nav', 'tags': ['搜狗', '公网', '意见反馈', '网页', '视频', '汉语', '问问', '英文']}
+2020-12-31 09:53:06,715 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): baike.sogou.com:443
+2020-12-31 09:53:07,542 - connectionpool.py[line:393] - DEBUG: https://baike.sogou.com:443 "GET /kexue/home.htm HTTP/1.1" 403 9
+2020-12-31 09:53:07,548 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://baike.sogou.com/kexue/home.htm', 'tags': []}
+2020-12-31 09:53:07,550 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): corp.sogou.com:80
+2020-12-31 09:53:07,838 - connectionpool.py[line:393] - DEBUG: http://corp.sogou.com:80 "GET /private.html HTTP/1.1" 200 136182
+2020-12-31 09:53:09,879 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://corp.sogou.com/private.html', 'tags': ['搜狗', '个人信息', '信息', '产品', '公司', '账号', '政策', '孩子']}
+2020-12-31 09:53:09,889 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): corp.sogou.com:80
+2020-12-31 09:53:10,075 - connectionpool.py[line:393] - DEBUG: http://corp.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:53:10,288 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://corp.sogou.com/', 'tags': ['搜狗', '输入法', '硬件', '公司简介', '业务', '网址', '联系', '历程']}
+2020-12-31 09:53:10,302 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): fanyi.sogou.com:80
+2020-12-31 09:53:10,583 - connectionpool.py[line:393] - DEBUG: http://fanyi.sogou.com:80 "GET /?fr=common_index_nav_pc HTTP/1.1" 200 None
+2020-12-31 09:53:10,810 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://fanyi.sogou.com?fr=common_index_nav_pc', 'tags': ['搜狗', '自动检测', '中文', '英语', '文档', '日语', '词典', '模型']}
+2020-12-31 09:53:10,819 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): gouwu.sogou.com:80
+2020-12-31 09:53:11,001 - connectionpool.py[line:393] - DEBUG: http://gouwu.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:53:11,059 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://gouwu.sogou.com/', 'tags': ['搜狗', '购物', '比价', '图片', '输入法', '网购', '扫码', '浏览器']}
+2020-12-31 09:53:11,063 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): zhishi.sogou.com:80
+2020-12-31 09:53:11,234 - connectionpool.py[line:393] - DEBUG: http://zhishi.sogou.com:80 "GET / HTTP/1.1" 200 12669
+2020-12-31 09:53:11,375 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://zhishi.sogou.com', 'tags': ['搜狗', '问问', '公网', '意见反馈', '百科', '搜索引擎', '网页', '链接']}
+2020-12-31 09:53:11,378 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): as.sogou.com:80
+2020-12-31 09:53:11,610 - connectionpool.py[line:393] - DEBUG: http://as.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:53:13,174 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://as.sogou.com/', 'tags': ['评语', '手机', '搜狗', '浏览器', '视频', '途牛', '百度', '美化']}
+2020-12-31 09:53:13,186 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): hanyu.sogou.com:80
+2020-12-31 09:53:13,419 - connectionpool.py[line:393] - DEBUG: http://hanyu.sogou.com:80 "GET /?fr=pcweb_index_nav HTTP/1.1" 302 71
+2020-12-31 09:53:13,518 - connectionpool.py[line:393] - DEBUG: http://hanyu.sogou.com:80 "GET /?prefetchredirect=1 HTTP/1.1" 200 None
+2020-12-31 09:53:26,024 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://hanyu.sogou.com?fr=pcweb_index_nav', 'tags': ['形容', '比喻', '成语', '示例', '词语', '接龙', '龙大', '明白']}
+2020-12-31 09:53:26,033 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): ie.sogou.com:80
+2020-12-31 09:53:26,401 - connectionpool.py[line:393] - DEBUG: http://ie.sogou.com:80 "GET / HTTP/1.1" 301 162
+2020-12-31 09:53:26,407 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ie.sogou.com:443
+2020-12-31 09:53:27,417 - connectionpool.py[line:393] - DEBUG: https://ie.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:53:27,474 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://ie.sogou.com/', 'tags': ['搜狗', '输入法', '手机', '拼音输入', '手游', '浏览器', '号码', '助手']}
+2020-12-31 09:53:27,474 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://www.sogou.com
+2020-12-31 09:53:27,491 - NS_Utils.py[line:62] - INFO: root database closed
+2020-12-31 09:53:27,492 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:53:27] "POST / HTTP/1.1" 200 -
+2020-12-31 09:53:31,222 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:53:31] "GET / HTTP/1.1" 200 -
+2020-12-31 09:53:36,424 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:53:36,426 - NS_SpiderCore.py[line:38] - INFO: Url:https://ke.qq.com/ valid
+2020-12-31 09:53:36,513 - NS_SpiderCore.py[line:78] - INFO: Url:https://ke.qq.com/ has been connected by socket without socks proxy
+2020-12-31 09:53:36,513 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+67c005a205110d21f213341245310a882b695c49590be40191366057ad29216c
+8830acb1e397580af770506ccd7359516849206cd91cd8039af7da8b12de139c
+7b29de4b4af9ed349f35356f352e1f4ff5ed158f9d4b18c8d7458d4998231b07
+ba02330de67933baeaaa761528b7d00edd8d8938971f4f18ae5014ffd0350f94
+c8a86c081bbee17a90b938524f146a852c5d57103357281f0a5762c800be4edd
+c8eeb00ac4dc275386a0c0a7364e38a580aa141fc3ec07727a34c1a3e8933f0c
+0908a2515827c00abeba83310910f95768547c43f225279ad50541671a604d70
+bf2a5d1eee3825d7032fbd01dd8758d2d05206db04ed168876992439f1c64ec4
+
+2020-12-31 09:53:36,533 - NS_Utils.py[line:53] - INFO: graph of https://ke.qq.com/ inited
+2020-12-31 09:53:36,537 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:53:37,165 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:53:37,923 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:53:41,048 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2007 HTTP/1.1" 200 None
+2020-12-31 09:53:47,195 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2007', 'tags': ['网络营销', '教程', '数据库', '编程', '游戏', '数据', '数组', '课程']}
+2020-12-31 09:53:47,212 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:53:48,420 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1006&st=2038&tt=3211 HTTP/1.1" 200 None
+2020-12-31 09:53:54,829 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1006&st=2038&tt=3211', 'tags': ['网络营销', '教程', '数据库', '游戏', '编程', '课程', '数组', '程序']}
+2020-12-31 09:53:54,843 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): yww.ke.qq.com:443
+2020-12-31 09:53:56,818 - connectionpool.py[line:393] - DEBUG: https://yww.ke.qq.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:53:57,309 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://yww.ke.qq.com', 'tags': ['电商', '淘宝', '娃娃', '课程', '机构', '店铺', '主页', '老师']}
+2020-12-31 09:53:57,326 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:53:58,046 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/toefl HTTP/1.1" 200 None
+2020-12-31 09:54:04,044 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/toefl', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:54:04,060 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:54:04,801 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2001&tt=3001 HTTP/1.1" 200 None
+2020-12-31 09:54:10,386 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2001&tt=3001', 'tags': ['网络营销', '教程', '数据库', '产品', '游戏', '经理', '数组', '基础']}
+2020-12-31 09:54:10,403 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:54:11,012 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/putonghua HTTP/1.1" 200 None
+2020-12-31 09:54:17,732 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/putonghua', 'tags': ['网络营销', '教程', '数据库', '普通话', '游戏', '数组', '编程', '课程']}
+2020-12-31 09:54:17,753 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:54:18,405 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1002&st=2012&tt=3065 HTTP/1.1" 200 None
+2020-12-31 09:54:24,741 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1002&st=2012&tt=3065', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '基础', '课程']}
+2020-12-31 09:54:24,760 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:54:25,491 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1002&st=2014&tt=3324 HTTP/1.1" 200 None
+2020-12-31 09:54:31,963 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1002&st=2014&tt=3324', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '插画', '原画']}
+2020-12-31 09:54:31,981 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:54:33,520 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/160102 HTTP/1.1" 200 None
+2020-12-31 09:54:39,730 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/160102', 'tags': ['网络营销', '教程', '数据库', '数组', '编程', '课程', '面试题', '程序']}
+2020-12-31 09:54:39,745 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:54:40,748 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/yasiyingyu HTTP/1.1" 200 None
+2020-12-31 09:54:46,796 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/yasiyingyu', 'tags': ['网络营销', '教程', '数据库', '雅思', '英语', '游戏', '数组', '编程']}
+2020-12-31 09:54:46,817 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:54:47,607 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1006&st=2055&tt=3401 HTTP/1.1" 200 None
+2020-12-31 09:54:53,589 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1006&st=2055&tt=3401', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:54:53,606 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:54:54,241 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1006&st=2047&tt=3279 HTTP/1.1" 200 None
+2020-12-31 09:55:03,860 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1006&st=2047&tt=3279', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '课程', '程序']}
+2020-12-31 09:55:03,880 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:55:04,917 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1006&st=2037&tt=3294 HTTP/1.1" 200 None
+2020-12-31 09:55:15,835 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1006&st=2037&tt=3294', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '课程', '程序']}
+2020-12-31 09:55:15,858 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): sixueedu.ke.qq.com:443
+2020-12-31 09:55:16,793 - connectionpool.py[line:393] - DEBUG: https://sixueedu.ke.qq.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:55:17,658 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://sixueedu.ke.qq.com', 'tags': ['电商', '跨境', '微客', '好学', '店铺', '课程', '商学院', '老师']}
+2020-12-31 09:55:17,683 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:55:18,353 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1002&st=2013&tt=3091 HTTP/1.1" 200 None
+2020-12-31 09:55:27,139 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1002&st=2013&tt=3091', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:55:27,152 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:55:27,954 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/yinji HTTP/1.1" 200 None
+2020-12-31 09:55:38,507 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/yinji', 'tags': ['网络营销', '教程', '数据库', '日语', '音基', '游戏', '课程', '数组']}
+2020-12-31 09:55:38,526 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:55:39,418 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/yinyue HTTP/1.1" 200 None
+2020-12-31 09:55:49,251 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/yinyue', 'tags': ['网络营销', '教程', '数据库', '课程', '游戏', '数组', '编程', '程序']}
+2020-12-31 09:55:49,266 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:55:50,482 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2002 HTTP/1.1" 200 None
+2020-12-31 09:56:00,746 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2002', 'tags': ['网络营销', '教程', '数据库', '课程', '游戏', '编程', '数组', '分布式']}
+2020-12-31 09:56:00,765 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:56:01,342 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list HTTP/1.1" 200 None
+2020-12-31 09:56:11,918 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list', 'tags': ['网络营销', '教程', '数据库', '游戏', '编程', '数组', '课程', '程序']}
+2020-12-31 09:56:11,934 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:56:12,620 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/neishen HTTP/1.1" 200 None
+2020-12-31 09:56:20,217 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/neishen', 'tags': ['网络营销', '教程', '数据库', '内审员', '内审', '游戏', '数组', '编程']}
+2020-12-31 09:56:20,238 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:56:20,886 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2007&tt=3221 HTTP/1.1" 200 None
+2020-12-31 09:56:27,043 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2007&tt=3221', 'tags': ['网络营销', '教程', '数据库', '游戏', '程序', '数组', '编程', '面试题']}
+2020-12-31 09:56:27,057 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:56:27,951 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/yingshijianji HTTP/1.1" 200 None
+2020-12-31 09:56:33,915 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/yingshijianji', 'tags': ['网络营销', '教程', '剪辑', '数据库', '影视', '游戏', '数组', '编程']}
+2020-12-31 09:56:33,929 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:56:34,919 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/jiqiren HTTP/1.1" 200 None
+2020-12-31 09:56:41,516 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/jiqiren', 'tags': ['网络营销', '教程', '数据库', '机器人', '编程', '游戏', '课程', '数组']}
+2020-12-31 09:56:41,537 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): masb.ke.qq.com:443
+2020-12-31 09:56:43,732 - connectionpool.py[line:393] - DEBUG: https://masb.ke.qq.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:56:44,481 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:56:44,516 - sbcharsetprober.py[line:119] - DEBUG: MacCyrillic confidence = 0.017906618407874584, below negative shortcut threshhold 0.05
+2020-12-31 09:56:44,645 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:56:44,926 - charsetgroupprober.py[line:100] - DEBUG: utf-8  confidence = 0.99
+2020-12-31 09:56:44,932 - charsetgroupprober.py[line:100] - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2020-12-31 09:56:44,935 - charsetgroupprober.py[line:100] - DEBUG: EUC-JP Japanese confidence = 0.01
+2020-12-31 09:56:44,936 - charsetgroupprober.py[line:100] - DEBUG: GB2312 Chinese confidence = 0.01
+2020-12-31 09:56:44,936 - charsetgroupprober.py[line:100] - DEBUG: EUC-KR Korean confidence = 0.01
+2020-12-31 09:56:44,936 - charsetgroupprober.py[line:100] - DEBUG: CP949 Korean confidence = 0.01
+2020-12-31 09:56:44,945 - charsetgroupprober.py[line:100] - DEBUG: Big5 Chinese confidence = 0.01
+2020-12-31 09:56:44,947 - charsetgroupprober.py[line:100] - DEBUG: EUC-TW Taiwan confidence = 0.01
+2020-12-31 09:56:44,950 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.01
+2020-12-31 09:56:44,953 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.01
+2020-12-31 09:56:44,953 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:56:44,953 - charsetgroupprober.py[line:97] - DEBUG: MacCyrillic not active
+2020-12-31 09:56:44,962 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.08181632316072839
+2020-12-31 09:56:44,966 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.060095034675263115
+2020-12-31 09:56:44,966 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2020-12-31 09:56:44,966 - charsetgroupprober.py[line:100] - DEBUG: windows-1253 Greek confidence = 0.0
+2020-12-31 09:56:44,966 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:56:44,975 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Bulgarian confidence = 0.0
+2020-12-31 09:56:44,975 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.07181147953247857
+2020-12-31 09:56:44,980 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.44043147664991805
+2020-12-31 09:56:44,982 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:56:44,983 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:56:44,983 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:56:44,983 - charsetgroupprober.py[line:100] - DEBUG: utf-8  confidence = 0.99
+2020-12-31 09:56:44,993 - charsetgroupprober.py[line:100] - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2020-12-31 09:56:44,994 - charsetgroupprober.py[line:100] - DEBUG: EUC-JP Japanese confidence = 0.01
+2020-12-31 09:56:44,998 - charsetgroupprober.py[line:100] - DEBUG: GB2312 Chinese confidence = 0.01
+2020-12-31 09:56:45,002 - charsetgroupprober.py[line:100] - DEBUG: EUC-KR Korean confidence = 0.01
+2020-12-31 09:56:45,003 - charsetgroupprober.py[line:100] - DEBUG: CP949 Korean confidence = 0.01
+2020-12-31 09:56:45,003 - charsetgroupprober.py[line:100] - DEBUG: Big5 Chinese confidence = 0.01
+2020-12-31 09:56:45,003 - charsetgroupprober.py[line:100] - DEBUG: EUC-TW Taiwan confidence = 0.01
+2020-12-31 09:56:45,292 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://masb.ke.qq.com', 'tags': ['士兵', '课程', '老师', '机构', '主页', '架构师', '客户端', '课程表']}
+2020-12-31 09:56:45,309 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:56:45,876 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1007&st=2051&tt=3362 HTTP/1.1" 200 None
+2020-12-31 09:56:52,267 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1007&st=2051&tt=3362', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:56:52,287 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:56:53,151 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/242792 HTTP/1.1" 200 None
+2020-12-31 09:56:58,830 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/242792', 'tags': ['网络营销', '教程', '数据库', '数组', '编程', '面试题', '程序', '游戏']}
+2020-12-31 09:56:58,847 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:56:59,599 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/341933 HTTP/1.1" 200 None
+2020-12-31 09:57:06,888 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/341933#paysource=1', 'tags': ['网络营销', '教程', '数据库', '框架', '数组', '面试题', '编程', '课程']}
+2020-12-31 09:57:06,902 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:57:08,124 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1004&st=2027&tt=3248 HTTP/1.1" 200 None
+2020-12-31 09:57:14,124 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1004&st=2027&tt=3248', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:57:14,139 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): jomen.ke.qq.com:443
+2020-12-31 09:57:15,377 - connectionpool.py[line:393] - DEBUG: https://jomen.ke.qq.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:57:15,946 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://jomen.ke.qq.com', 'tags': ['焦门', '摄影', '教学', '课程', '机构', '三板斧', '手机', '主页']}
+2020-12-31 09:57:15,965 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:57:17,101 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/yixuekaoyan HTTP/1.1" 200 None
+2020-12-31 09:57:23,445 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/yixuekaoyan', 'tags': ['网络营销', '教程', '数据库', '医学', '游戏', '数组', '编程', '课程']}
+2020-12-31 09:57:23,467 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:57:25,300 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1002&st=2013&tt=3074 HTTP/1.1" 200 None
+2020-12-31 09:57:31,311 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1002&st=2013&tt=3074', 'tags': ['网络营销', '教程', '数据库', '游戏', '课程', '数组', '编程', '程序']}
+2020-12-31 09:57:31,328 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:57:32,162 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /faq.html?id=10 HTTP/1.1" 200 None
+2020-12-31 09:57:32,870 - charsetgroupprober.py[line:100] - DEBUG: utf-8  confidence = 0.99
+2020-12-31 09:57:32,874 - charsetgroupprober.py[line:100] - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2020-12-31 09:57:32,876 - charsetgroupprober.py[line:100] - DEBUG: EUC-JP Japanese confidence = 0.01
+2020-12-31 09:57:32,880 - charsetgroupprober.py[line:100] - DEBUG: GB2312 Chinese confidence = 0.01
+2020-12-31 09:57:32,882 - charsetgroupprober.py[line:100] - DEBUG: EUC-KR Korean confidence = 0.01
+2020-12-31 09:57:32,885 - charsetgroupprober.py[line:100] - DEBUG: CP949 Korean confidence = 0.01
+2020-12-31 09:57:32,888 - charsetgroupprober.py[line:100] - DEBUG: Big5 Chinese confidence = 0.01
+2020-12-31 09:57:32,891 - charsetgroupprober.py[line:100] - DEBUG: EUC-TW Taiwan confidence = 0.01
+2020-12-31 09:57:32,895 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.01
+2020-12-31 09:57:32,896 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.01
+2020-12-31 09:57:32,896 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2020-12-31 09:57:32,906 - charsetgroupprober.py[line:100] - DEBUG: MacCyrillic Russian confidence = 0.013203264963441071
+2020-12-31 09:57:32,910 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.11361783198421475
+2020-12-31 09:57:32,913 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.04225721074524324
+2020-12-31 09:57:32,913 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2020-12-31 09:57:32,913 - charsetgroupprober.py[line:100] - DEBUG: windows-1253 Greek confidence = 0.0
+2020-12-31 09:57:32,922 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2020-12-31 09:57:32,926 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Bulgarian confidence = 0.0
+2020-12-31 09:57:32,928 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.05568822841591357
+2020-12-31 09:57:32,931 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.48365457462918837
+2020-12-31 09:57:32,933 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:57:32,936 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:57:32,936 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:57:32,942 - charsetgroupprober.py[line:100] - DEBUG: utf-8  confidence = 0.99
+2020-12-31 09:57:32,943 - charsetgroupprober.py[line:100] - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2020-12-31 09:57:32,948 - charsetgroupprober.py[line:100] - DEBUG: EUC-JP Japanese confidence = 0.01
+2020-12-31 09:57:32,951 - charsetgroupprober.py[line:100] - DEBUG: GB2312 Chinese confidence = 0.01
+2020-12-31 09:57:32,954 - charsetgroupprober.py[line:100] - DEBUG: EUC-KR Korean confidence = 0.01
+2020-12-31 09:57:32,954 - charsetgroupprober.py[line:100] - DEBUG: CP949 Korean confidence = 0.01
+2020-12-31 09:57:32,959 - charsetgroupprober.py[line:100] - DEBUG: Big5 Chinese confidence = 0.01
+2020-12-31 09:57:32,962 - charsetgroupprober.py[line:100] - DEBUG: EUC-TW Taiwan confidence = 0.01
+2020-12-31 09:57:33,162 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/faq.html?id=10', 'tags': ['客户端', '课程表', '腾讯', '课堂', '课程', '消息', '中心', '机构']}
+2020-12-31 09:57:33,179 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:57:33,905 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1002&st=2012&tt=3226 HTTP/1.1" 200 None
+2020-12-31 09:57:40,262 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1002&st=2012&tt=3226', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:57:40,277 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:57:41,173 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1003&st=2020&tt=3368 HTTP/1.1" 200 None
+2020-12-31 09:57:47,628 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1003&st=2020&tt=3368', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:57:47,647 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:57:48,244 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/2676713 HTTP/1.1" 200 None
+2020-12-31 09:57:54,959 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/2676713#paysource=1', 'tags': ['网络营销', '教程', '数据库', '网络', '数组', '编程', '课程', '工程师']}
+2020-12-31 09:57:54,978 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:57:55,569 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1005&st=2031&tt=3176 HTTP/1.1" 200 None
+2020-12-31 09:58:02,143 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1005&st=2031&tt=3176', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:58:02,163 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:58:02,781 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1006&st=2036&tt=3196 HTTP/1.1" 200 None
+2020-12-31 09:58:08,702 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1006&st=2036&tt=3196', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '课程', '程序']}
+2020-12-31 09:58:08,717 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:58:09,749 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1003&st=2023&tt=3123 HTTP/1.1" 200 None
+2020-12-31 09:58:17,941 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1003&st=2023&tt=3123', 'tags': ['网络营销', '教程', '数据库', '日语', '游戏', '数组', '编程', '基础']}
+2020-12-31 09:58:17,962 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:58:22,133 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1003&st=2023&tt=3125 HTTP/1.1" 200 None
+2020-12-31 09:58:28,280 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1003&st=2023&tt=3125', 'tags': ['网络营销', '教程', '数据库', '日语', '游戏', '数组', '编程', '课程']}
+2020-12-31 09:58:28,293 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:58:29,200 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/yingyuliuji HTTP/1.1" 200 None
+2020-12-31 09:58:34,756 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/yingyuliuji', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:58:34,779 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:58:35,548 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/137194 HTTP/1.1" 200 None
+2020-12-31 09:58:43,379 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/137194', 'tags': ['网络营销', '教程', '数据库', '行情', '大盘', '股市', '数组', '编程']}
+2020-12-31 09:58:43,400 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): chuangm.ke.qq.com:443
+2020-12-31 09:58:44,602 - connectionpool.py[line:393] - DEBUG: https://chuangm.ke.qq.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:58:45,192 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:58:45,247 - sbcharsetprober.py[line:119] - DEBUG: MacCyrillic confidence = 0.01272728870366538, below negative shortcut threshhold 0.05
+2020-12-31 09:58:45,453 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:58:45,789 - charsetgroupprober.py[line:100] - DEBUG: utf-8  confidence = 0.99
+2020-12-31 09:58:45,789 - charsetgroupprober.py[line:100] - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2020-12-31 09:58:45,799 - charsetgroupprober.py[line:100] - DEBUG: EUC-JP Japanese confidence = 0.01
+2020-12-31 09:58:45,802 - charsetgroupprober.py[line:100] - DEBUG: GB2312 Chinese confidence = 0.01
+2020-12-31 09:58:45,802 - charsetgroupprober.py[line:100] - DEBUG: EUC-KR Korean confidence = 0.01
+2020-12-31 09:58:45,802 - charsetgroupprober.py[line:100] - DEBUG: CP949 Korean confidence = 0.01
+2020-12-31 09:58:45,812 - charsetgroupprober.py[line:100] - DEBUG: Big5 Chinese confidence = 0.01
+2020-12-31 09:58:45,812 - charsetgroupprober.py[line:100] - DEBUG: EUC-TW Taiwan confidence = 0.01
+2020-12-31 09:58:45,820 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.01
+2020-12-31 09:58:45,822 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.01
+2020-12-31 09:58:45,822 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:58:45,822 - charsetgroupprober.py[line:97] - DEBUG: MacCyrillic not active
+2020-12-31 09:58:45,831 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.07030914069876158
+2020-12-31 09:58:45,835 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.050315712086398276
+2020-12-31 09:58:45,837 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2020-12-31 09:58:45,837 - charsetgroupprober.py[line:100] - DEBUG: windows-1253 Greek confidence = 0.0
+2020-12-31 09:58:45,846 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:58:45,848 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Bulgarian confidence = 0.0
+2020-12-31 09:58:45,851 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.07251006681464506
+2020-12-31 09:58:45,855 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.44044736870021833
+2020-12-31 09:58:45,856 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:58:45,856 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:58:45,865 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:58:45,869 - charsetgroupprober.py[line:100] - DEBUG: utf-8  confidence = 0.99
+2020-12-31 09:58:45,870 - charsetgroupprober.py[line:100] - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2020-12-31 09:58:45,870 - charsetgroupprober.py[line:100] - DEBUG: EUC-JP Japanese confidence = 0.01
+2020-12-31 09:58:45,878 - charsetgroupprober.py[line:100] - DEBUG: GB2312 Chinese confidence = 0.01
+2020-12-31 09:58:45,880 - charsetgroupprober.py[line:100] - DEBUG: EUC-KR Korean confidence = 0.01
+2020-12-31 09:58:45,885 - charsetgroupprober.py[line:100] - DEBUG: CP949 Korean confidence = 0.01
+2020-12-31 09:58:45,888 - charsetgroupprober.py[line:100] - DEBUG: Big5 Chinese confidence = 0.01
+2020-12-31 09:58:45,889 - charsetgroupprober.py[line:100] - DEBUG: EUC-TW Taiwan confidence = 0.01
+2020-12-31 09:58:46,280 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://chuangm.ke.qq.com', 'tags': ['创梦', '电商', '视频', '网络营销', '课程', '老师', '机构', '集团']}
+2020-12-31 09:58:46,295 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:58:47,017 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1006&st=2038&tt=3210 HTTP/1.1" 200 None
+2020-12-31 09:58:53,109 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1006&st=2038&tt=3210', 'tags': ['网络营销', '教程', '数据库', '小儿', '游戏', '育儿', '编程', '数组']}
+2020-12-31 09:58:53,121 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:58:53,777 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1004&st=2053&tt=3384 HTTP/1.1" 200 None
+2020-12-31 09:59:00,777 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1004&st=2053&tt=3384', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:59:00,792 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:59:01,562 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2054 HTTP/1.1" 200 None
+2020-12-31 09:59:07,466 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2054', 'tags': ['网络营销', '教程', '数据库', '游戏', '编程', '数组', '课程', '程序']}
+2020-12-31 09:59:07,485 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:59:08,121 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1003&st=2020&tt=3113 HTTP/1.1" 200 None
+2020-12-31 09:59:14,332 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1003&st=2020&tt=3113', 'tags': ['网络营销', '教程', '数据库', '英语', '入门', '游戏', '基础', '语法']}
+2020-12-31 09:59:14,348 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:59:15,201 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/deyu HTTP/1.1" 200 None
+2020-12-31 09:59:21,350 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/deyu', 'tags': ['网络营销', '教程', '数据库', '德语', '游戏', '数组', '编程', '课程']}
+2020-12-31 09:59:21,368 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:59:22,032 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2003&tt=3436 HTTP/1.1" 200 None
+2020-12-31 09:59:28,064 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2003&tt=3436', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 09:59:28,087 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:59:28,677 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2003&tt=3218 HTTP/1.1" 200 None
+2020-12-31 09:59:34,808 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2003&tt=3218', 'tags': ['网络营销', '教程', '数据库', '游戏', '程序', '数组', '编程', '课程']}
+2020-12-31 09:59:34,828 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:59:35,553 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1004&st=2027&tt=3245 HTTP/1.1" 200 None
+2020-12-31 09:59:41,963 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1004&st=2027&tt=3245', 'tags': ['网络营销', '教程', '数据库', '教师', '笔试', '课程', '游戏', '数组']}
+2020-12-31 09:59:41,977 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:59:42,730 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1005&st=2034&tt=3186 HTTP/1.1" 200 None
+2020-12-31 09:59:48,995 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1005&st=2034&tt=3186', 'tags': ['网络营销', '教程', '数据库', '游戏', '课程', '数组', '编程', '程序']}
+2020-12-31 09:59:49,013 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): qjxy.ke.qq.com:443
+2020-12-31 09:59:49,938 - connectionpool.py[line:393] - DEBUG: https://qjxy.ke.qq.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:59:50,514 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://qjxy.ke.qq.com', 'tags': ['巧匠', '电商', '课堂', '淘宝', '课程', '插画', '设计师', '手绘']}
+2020-12-31 09:59:50,529 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:59:51,555 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/pskuaijiejian HTTP/1.1" 200 None
+2020-12-31 09:59:58,006 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/pskuaijiejian', 'tags': ['网络营销', '教程', '数据库', '快捷键', '游戏', '数组', '编程', '课程']}
+2020-12-31 09:59:58,020 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 09:59:59,120 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1004&st=2029&tt=3165 HTTP/1.1" 200 None
+2020-12-31 10:00:07,792 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1004&st=2029&tt=3165', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '广联达', '程序']}
+2020-12-31 10:00:07,812 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:00:08,382 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1002&st=2013&tt=3078 HTTP/1.1" 200 None
+2020-12-31 10:00:15,459 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1002&st=2013&tt=3078', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '课程', '程序']}
+2020-12-31 10:00:15,477 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:00:16,206 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/97965 HTTP/1.1" 200 None
+2020-12-31 10:00:24,752 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/97965', 'tags': ['网络营销', '入门', '教程', '数据库', '程序', '数组', '页面', '编程']}
+2020-12-31 10:00:24,766 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:00:25,545 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1006&st=2036&tt=3195 HTTP/1.1" 200 None
+2020-12-31 10:00:32,001 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1006&st=2036&tt=3195', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '欧艾', '程序']}
+2020-12-31 10:00:32,022 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:00:32,897 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2001 HTTP/1.1" 200 None
+2020-12-31 10:00:39,401 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2001', 'tags': ['网络营销', '教程', '数据库', '游戏', '视频', '数组', '基础', '编程']}
+2020-12-31 10:00:39,421 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:00:40,077 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2007&tt=3036 HTTP/1.1" 200 None
+2020-12-31 10:00:46,355 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2007&tt=3036', 'tags': ['网络营销', '教程', '数据库', '编程', '数据', '游戏', '数组', '程序']}
+2020-12-31 10:00:46,376 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:00:46,931 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2056&tt=3409 HTTP/1.1" 200 None
+2020-12-31 10:00:53,353 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2056&tt=3409', 'tags': ['网络营销', '教程', '数据库', '区块', '游戏', '编程', '数组', '课程']}
+2020-12-31 10:00:53,369 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:00:53,991 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1002&st=2015&tt=3229 HTTP/1.1" 200 None
+2020-12-31 10:01:00,405 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1002&st=2015&tt=3229', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '课程', '程序']}
+2020-12-31 10:01:00,421 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:01:01,058 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1003&st=2024&tt=3132 HTTP/1.1" 200 None
+2020-12-31 10:01:06,880 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1003&st=2024&tt=3132', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '程序', '面试题']}
+2020-12-31 10:01:06,896 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:01:07,729 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2005&tt=3030 HTTP/1.1" 200 None
+2020-12-31 10:01:15,439 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2005&tt=3030', 'tags': ['网络营销', '运维', '教程', '数据库', '工程师', '架构师', '游戏', '课程']}
+2020-12-31 10:01:15,461 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:01:16,109 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1002&st=2014&tt=3095 HTTP/1.1" 200 None
+2020-12-31 10:01:22,499 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1002&st=2014&tt=3095', 'tags': ['网络营销', '教程', '数据库', '游戏', '数组', '编程', '课程', '程序']}
+2020-12-31 10:01:22,517 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:01:25,945 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2056&tt=3410 HTTP/1.1" 500 None
+2020-12-31 10:01:26,482 - charsetgroupprober.py[line:100] - DEBUG: utf-8  confidence = 0.99
+2020-12-31 10:01:26,484 - charsetgroupprober.py[line:100] - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2020-12-31 10:01:26,485 - charsetgroupprober.py[line:100] - DEBUG: EUC-JP Japanese confidence = 0.01
+2020-12-31 10:01:26,485 - charsetgroupprober.py[line:100] - DEBUG: GB2312 Chinese confidence = 0.01
+2020-12-31 10:01:26,496 - charsetgroupprober.py[line:100] - DEBUG: EUC-KR Korean confidence = 0.01
+2020-12-31 10:01:26,500 - charsetgroupprober.py[line:100] - DEBUG: CP949 Korean confidence = 0.01
+2020-12-31 10:01:26,502 - charsetgroupprober.py[line:100] - DEBUG: Big5 Chinese confidence = 0.01
+2020-12-31 10:01:26,502 - charsetgroupprober.py[line:100] - DEBUG: EUC-TW Taiwan confidence = 0.01
+2020-12-31 10:01:26,502 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.01
+2020-12-31 10:01:26,511 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.01
+2020-12-31 10:01:26,512 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-5 Russian confidence = 0.0
+2020-12-31 10:01:26,517 - charsetgroupprober.py[line:100] - DEBUG: MacCyrillic Russian confidence = 0.008136934111470373
+2020-12-31 10:01:26,519 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.11582793411090751
+2020-12-31 10:01:26,520 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.043537534402022064
+2020-12-31 10:01:26,520 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-7 Greek confidence = 0.0
+2020-12-31 10:01:26,520 - charsetgroupprober.py[line:100] - DEBUG: windows-1253 Greek confidence = 0.0
+2020-12-31 10:01:26,529 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-5 Bulgairan confidence = 0.0
+2020-12-31 10:01:26,532 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Bulgarian confidence = 0.0
+2020-12-31 10:01:26,534 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.04734643075244931
+2020-12-31 10:01:26,536 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.49457939727998107
+2020-12-31 10:01:26,536 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 10:01:26,536 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 10:01:26,545 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 10:01:26,549 - charsetgroupprober.py[line:100] - DEBUG: utf-8  confidence = 0.99
+2020-12-31 10:01:26,551 - charsetgroupprober.py[line:100] - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2020-12-31 10:01:26,554 - charsetgroupprober.py[line:100] - DEBUG: EUC-JP Japanese confidence = 0.01
+2020-12-31 10:01:26,555 - charsetgroupprober.py[line:100] - DEBUG: GB2312 Chinese confidence = 0.01
+2020-12-31 10:01:26,555 - charsetgroupprober.py[line:100] - DEBUG: EUC-KR Korean confidence = 0.01
+2020-12-31 10:01:26,555 - charsetgroupprober.py[line:100] - DEBUG: CP949 Korean confidence = 0.01
+2020-12-31 10:01:26,566 - charsetgroupprober.py[line:100] - DEBUG: Big5 Chinese confidence = 0.01
+2020-12-31 10:01:26,568 - charsetgroupprober.py[line:100] - DEBUG: EUC-TW Taiwan confidence = 0.01
+2020-12-31 10:01:26,719 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2056&tt=3410', 'tags': ['客户端', '课程表', '腾讯', '课堂', '课程', '消息', '机构', '私信']}
+2020-12-31 10:01:26,737 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:01:27,494 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2007&tt=3406 HTTP/1.1" 200 None
+2020-12-31 10:01:33,822 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2007&tt=3406', 'tags': ['网络营销', '教程', '数据库', '数据', '游戏', '编程', '数组', '程序']}
+2020-12-31 10:01:33,836 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:01:35,588 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1001&st=2009&tt=3405 HTTP/1.1" 200 None
+2020-12-31 10:01:41,306 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1001&st=2009&tt=3405', 'tags': ['网络营销', '教程', '数据库', '游戏', '编程', '数组', '程序', '面试题']}
+2020-12-31 10:01:41,327 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:01:42,353 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/111347 HTTP/1.1" 200 None
+2020-12-31 10:01:54,157 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/111347', 'tags': ['齐论', '网络营销', '教程', '数据库', '店铺', '玩法', '直通车', '数组']}
+2020-12-31 10:01:54,171 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:01:54,821 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /course/list?mt=1002&st=2013&tt=3076 HTTP/1.1" 200 None
+2020-12-31 10:02:01,810 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/course/list?mt=1002&st=2013&tt=3076', 'tags': ['网络营销', '教程', '数据库', '游戏', '基础', '数组', '编程', '课程']}
+2020-12-31 10:02:01,824 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:02:03,147 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/dianshangmeigong HTTP/1.1" 200 None
+2020-12-31 10:02:09,798 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/dianshangmeigong', 'tags': ['网络营销', '教程', '数据库', '电商', '淘宝', '游戏', '数组', '课程']}
+2020-12-31 10:02:09,818 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:02:10,602 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/biancheng HTTP/1.1" 200 None
+2020-12-31 10:02:17,012 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/biancheng', 'tags': ['网络营销', '教程', '编程', '数据库', '游戏', '课程', '数组', '程序']}
+2020-12-31 10:02:17,033 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:02:17,966 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/pszmqushuiyin HTTP/1.1" 200 None
+2020-12-31 10:02:24,120 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/pszmqushuiyin', 'tags': ['网络营销', '教程', '数据库', '水印', '游戏', '数组', '编程', '课程']}
+2020-12-31 10:02:24,133 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:02:24,933 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/sike HTTP/1.1" 200 None
+2020-12-31 10:02:31,496 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/sike', 'tags': ['网络营销', '教程', '数据库', '思科', '网络', '游戏', '课程', '数组']}
+2020-12-31 10:02:31,513 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:02:32,296 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/pifuguanli HTTP/1.1" 200 None
+2020-12-31 10:02:38,177 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/pifuguanli', 'tags': ['网络营销', '教程', '数据库', '皮肤', '游戏', '数组', '编程', '课程']}
+2020-12-31 10:02:38,177 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://ke.qq.com/
+2020-12-31 10:02:38,193 - NS_Utils.py[line:62] - INFO: root database closed
+2020-12-31 10:02:38,197 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 10:02:38] "POST / HTTP/1.1" 200 -
+2020-12-31 10:39:43,572 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 10:39:43] "GET / HTTP/1.1" 200 -
+q.com:443 "GET /topic/dianshangmeigong HTTP/1.1" 200 None
+2020-12-31 10:02:09,798 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/dianshangmeigong', 'tags': ['网络营销', '教程', '数据库', '电商', '淘宝', '游戏', '数组', '课程']}
+2020-12-31 10:02:09,818 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:02:10,602 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/biancheng HTTP/1.1" 200 None
+2020-12-31 10:02:17,012 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/biancheng', 'tags': ['网络营销', '教程', '编程', '数据库', '游戏', '课程', '数组', '程序']}
+2020-12-31 10:02:17,033 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:02:17,966 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/pszmqushuiyin HTTP/1.1" 200 None
+2020-12-31 10:02:24,120 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/pszmqushuiyin', 'tags': ['网络营销', '教程', '数据库', '水印', '游戏', '数组', '编程', '课程']}
+2020-12-31 10:02:24,133 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:02:24,933 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/sike HTTP/1.1" 200 None
+2020-12-31 10:02:31,496 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/sike', 'tags': ['网络营销', '教程', '数据库', '思科', '网络', '游戏', '课程', '数组']}
+2020-12-31 10:02:31,513 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ke.qq.com:443
+2020-12-31 10:02:32,296 - connectionpool.py[line:393] - DEBUG: https://ke.qq.com:443 "GET /topic/pifuguanli HTTP/1.1" 200 None
+2020-12-31 10:02:38,177 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://ke.qq.com/topic/pifuguanli', 'tags': ['网络营销', '教程', '数据库', '皮肤', '游戏', '数组', '编程', '课程']}
+2020-12-31 10:02:38,177 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://ke.qq.com/
+2020-12-31 10:02:38,193 - NS_Utils.py[line:62] - INFO: root database closed
+2020-12-31 10:02:38,197 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 10:02:38] "POST / HTTP/1.1" 200 -
+2020-12-31 10:39:43,572 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 10:39:43] "GET / HTTP/1.1" 200 -

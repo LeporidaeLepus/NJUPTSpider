@@ -1,0 +1,10 @@
+2021-01-01 18:22:03,150 - NS_Utils.py[line:30] - INFO: root database connected
+2021-01-01 18:22:03,151 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.baidu valid
+2021-01-01 18:22:03,170 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "POST / HTTP/1.1" 500 -
+2021-01-01 18:22:03,208 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-01-01 18:22:03,210 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2021-01-01 18:22:03,223 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-01-01 18:22:03,282 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:22:03,301 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-01-01 18:22:03,447 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:59:02,169 - _internal.py[line:88] - INFO:  * Detected change in 'C:\\Users\\HP\\Desktop\\NjuptSpider\\NS_main.py', reloading

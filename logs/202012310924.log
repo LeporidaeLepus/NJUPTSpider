@@ -1,0 +1,61 @@
+2020-12-31 09:24:16,749 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:24:16,750 - NS_SpiderCore.py[line:38] - INFO: Url:http://www.njupt.edu.cn valid
+2020-12-31 09:24:16,827 - NS_SpiderCore.py[line:78] - INFO: Url:http://www.njupt.edu.cn has been connected by socket without socks proxy
+2020-12-31 09:24:16,829 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+
+2020-12-31 09:24:16,834 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:17,011 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET / HTTP/1.1" 200 14962
+2020-12-31 09:24:17,253 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:17,371 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET / HTTP/1.1" 200 14962
+2020-12-31 09:24:17,920 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn', 'tags': ['南邮', '邮电大学', '校区', '研究生', '专题', '南京', '大学生', '校园']}
+2020-12-31 09:24:17,936 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): zbb.njupt.edu.cn:80
+2020-12-31 09:24:18,456 - connectionpool.py[line:393] - DEBUG: http://zbb.njupt.edu.cn:80 "GET /zbgghwl/index.chtml HTTP/1.1" 200 None
+2020-12-31 09:24:18,585 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://zbb.njupt.edu.cn/zbgghwl/index.chtml', 'tags': ['邮电大学', '南京', '项目', '公告', '信息', '平台', '图书馆', '招标']}
+2020-12-31 09:24:18,600 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:18,705 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1224/c53a179236/page.htm HTTP/1.1" 200 8552
+2020-12-31 09:24:19,185 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1224/c53a179236/page.htm', 'tags': ['南邮', '特等奖', '艺术', '大学生', '校区', '江苏省', '邮编', '高校']}
+2020-12-31 09:24:19,202 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): mp.weixin.qq.com:443
+2020-12-31 09:24:19,690 - connectionpool.py[line:393] - DEBUG: https://mp.weixin.qq.com:443 "GET /s?__biz=MzAxNjMxMDIyNw==&mid=2658422889&idx=1&sn=ea260e2fa96ec66e52558e712ccf7994&chksm=80763ad5b701b3c306db21091982e53db62a453e938c5b1acab715aa1602d84bec30c795f6cc&token=1325124048&lang=zh_CN HTTP/1.1" 200 121509
+2020-12-31 09:24:24,150 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://mp.weixin.qq.com/s?__biz=MzAxNjMxMDIyNw==&mid=2658422889&idx=1&sn=ea260e2fa96ec66e52558e712ccf7994&chksm=80763ad5b701b3c306db21091982e53db62a453e938c5b1acab715aa1602d84bec30c795f6cc&token=1325124048&lang=zh_CN#rd', 'tags': ['戴永刚', '邮电大学', '南邮', '南京', '销路', '第一书记', '农产品', '老人']}
+2020-12-31 09:24:24,168 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:24,303 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2019/0528/c8566a150184/page.htm HTTP/1.1" 200 20286
+2020-12-31 09:24:24,970 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2019/0528/c8566a150184/page.htm', 'tags': ['人才', '邮电大学', '师资', '学院', '高水平', '南京', '国家', '学术']}
+2020-12-31 09:24:24,988 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): zs.njupt.edu.cn:80
+2020-12-31 09:24:25,151 - connectionpool.py[line:393] - DEBUG: http://zs.njupt.edu.cn:80 "GET / HTTP/1.1" 200 6614
+2020-12-31 09:24:25,506 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://zs.njupt.edu.cn', 'tags': ['邮电大学', '学院', '南邮', '南京', '统计表', '邮编', '招生网', '南京市']}
+2020-12-31 09:24:25,510 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): njupt.cuepa.cn:80
+2020-12-31 09:24:26,113 - connectionpool.py[line:393] - DEBUG: http://njupt.cuepa.cn:80 "GET / HTTP/1.1" 302 145
+2020-12-31 09:24:26,126 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): njupt.ihwrm.com:80
+2020-12-31 09:24:26,625 - connectionpool.py[line:393] - DEBUG: http://njupt.ihwrm.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:24:26,834 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://njupt.cuepa.cn/', 'tags': ['邮电大学', '校党委', '巡视组', '刘陈', '南京', '本报讯', '法治', '论坛']}
+2020-12-31 09:24:26,834 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:26,995 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2016/1124/c240a10071/page.htm HTTP/1.1" 200 8308
+2020-12-31 09:24:27,313 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2016/1124/c240a10071/page.htm', 'tags': ['南邮', '李露曦', '科研', '专业', '奖学金', '校区', '邮编', '学年']}
+2020-12-31 09:24:27,322 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:27,406 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /nyxg/list.htm HTTP/1.1" 200 10559
+2020-12-31 09:24:27,767 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/nyxg/list.htm', 'tags': ['南邮', '校歌', '校区', '校园', '实景', '邮编', '宋体', '校史']}
+2020-12-31 09:24:27,778 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.beian.gov.cn:80
+2020-12-31 09:24:27,956 - connectionpool.py[line:393] - DEBUG: http://www.beian.gov.cn:80 "GET /portal/registerSystemInfo?recordcode=32011302320419 HTTP/1.1" 200 13541
+2020-12-31 09:24:28,084 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32011302320419', 'tags': ['网站', '备案号', '验证码', '域名', '名称', '公安部', '备案', '地址']}
+2020-12-31 09:24:28,099 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:28,251 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1224/c53a179234/page.htm HTTP/1.1" 200 12167
+2020-12-31 09:24:28,735 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1224/c53a179234/page.htm', 'tags': ['师德师', '南邮', '师德', '江苏', '校区', '郭新宇', '教师', '高校']}
+2020-12-31 09:24:28,754 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:28,863 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1230/c53a179674/page.htm HTTP/1.1" 200 14560
+2020-12-31 09:24:29,525 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1230/c53a179674/page.htm', 'tags': ['研究生', '南邮', '高质量', '导师', '校党委', '校区', '会议', '美兰']}
+2020-12-31 09:24:29,542 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): 202.119.175.199:80
+2020-12-31 09:24:50,640 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:50] "POST / HTTP/1.1" 500 -
+2020-12-31 09:24:50,736 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-12-31 09:24:50,769 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:50] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-12-31 09:24:50,805 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-12-31 09:24:51,004 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-12-31 09:24:51,033 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:51] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-12-31 09:24:52,645 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -

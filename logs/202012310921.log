@@ -1,0 +1,417 @@
+2020-12-31 09:21:33,403 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:21:33,409 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.baidu.com valid
+2020-12-31 09:21:33,511 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.baidu.com has been connected by socket without socks proxy
+2020-12-31 09:21:33,520 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+
+2020-12-31 09:21:33,538 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:21:33,714 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:21:33,987 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): beian.miit.gov.cn:443
+2020-12-31 09:21:34,335 - connectionpool.py[line:393] - DEBUG: https://beian.miit.gov.cn:443 "GET / HTTP/1.1" 521 None
+2020-12-31 09:21:34,356 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2020-12-31 09:21:34,357 - __init__.py[line:113] - DEBUG: Building prefix dict from the default dictionary ...
+2020-12-31 09:21:34,364 - __init__.py[line:133] - DEBUG: Loading model from cache C:\Users\HP\AppData\Local\Temp\jieba.cache
+2020-12-31 09:21:36,720 - __init__.py[line:165] - DEBUG: Loading model cost 2.363 seconds.
+2020-12-31 09:21:36,721 - __init__.py[line:166] - DEBUG: Prefix dict has been built successfully.
+2020-12-31 09:21:36,723 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://beian.miit.gov.cn', 'tags': []}
+2020-12-31 09:21:36,723 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): music.taihe.com:80
+2020-12-31 09:21:36,905 - connectionpool.py[line:393] - DEBUG: http://music.taihe.com:80 "GET / HTTP/1.1" 302 169
+2020-12-31 09:21:36,912 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): music.taihe.com:443
+2020-12-31 09:21:37,451 - connectionpool.py[line:393] - DEBUG: https://music.taihe.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:21:39,631 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://music.taihe.com', 'tags': ['华语', '音乐', '歌单', '朋克', '粤语', '私藏', '歌曲', '单曲']}
+2020-12-31 09:21:39,642 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): wenku.baidu.com:80
+2020-12-31 09:21:39,836 - connectionpool.py[line:393] - DEBUG: http://wenku.baidu.com:80 "GET /search?lm=0&od=0&ie=utf-8 HTTP/1.1" 301 178
+2020-12-31 09:21:39,842 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): wenku.baidu.com:443
+2020-12-31 09:21:40,138 - connectionpool.py[line:393] - DEBUG: https://wenku.baidu.com:443 "GET /search?lm=0&od=0&ie=utf-8 HTTP/1.1" 302 None
+2020-12-31 09:21:40,314 - connectionpool.py[line:393] - DEBUG: https://wenku.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:21:40,706 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8', 'tags': ['格式', '精品', '图书', '文库', '特权', '会员', '入门', '福利社']}
+2020-12-31 09:21:40,725 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.beian.gov.cn:80
+2020-12-31 09:21:40,966 - connectionpool.py[line:393] - DEBUG: http://www.beian.gov.cn:80 "GET /portal/registerSystemInfo?recordcode=11000002000001 HTTP/1.1" 200 13541
+2020-12-31 09:21:41,122 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001', 'tags': ['网站', '备案号', '验证码', '域名', '名称', '公安部', '备案', '地址']}
+2020-12-31 09:21:41,136 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.baidu.com:80
+2020-12-31 09:21:41,238 - connectionpool.py[line:393] - DEBUG: http://www.baidu.com:80 "GET /more/ HTTP/1.1" 200 10861
+2020-12-31 09:21:41,970 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.baidu.com/more/', 'tags': ['百度', '平台', '输入法', '服务平台', '海量', '开放平台', '工具', '音乐']}
+2020-12-31 09:21:41,981 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): map.baidu.com:443
+2020-12-31 09:21:42,479 - connectionpool.py[line:393] - DEBUG: https://map.baidu.com:443 "GET /?newmap=1&ie=utf-8&s=s HTTP/1.1" 200 None
+2020-12-31 09:21:44,154 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://map.baidu.com/?newmap=1&ie=utf-8&s=s', 'tags': ['端会', '详情页', '文档', '百度', '所需', '地图', '部署', '文件']}
+2020-12-31 09:21:44,163 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.hao123.com:443
+2020-12-31 09:21:44,556 - connectionpool.py[line:393] - DEBUG: https://www.hao123.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:21:48,119 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://www.hao123.com', 'tags': ['邮箱', '百度', '音乐', '视频', '搜狐', '新浪', '游戏', '手机']}
+2020-12-31 09:21:48,128 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:21:48,354 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%8C%97%E4%BA%AC%E9%A1%BA%E4%B9%89%E7%96%AB%E6%83%85%E5%9B%A0%E5%8D%B0%E5%B0%BC%E8%BE%93%E5%85%A5%E7%97%85%E4%BE%8B%E5%BC%95%E8%B5%B7&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:21:48,369 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%8C%97%E4%BA%AC%E9%A1%BA%E4%B9%89%E7%96%AB%E6%83%85%E5%9B%A0%E5%8D%B0%E5%B0%BC%E8%BE%93%E5%85%A5%E7%97%85%E4%BE%8B%E5%BC%95%E8%B5%B7&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:21:48,378 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:21:48,600 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=31%E7%9C%81%E6%96%B0%E5%A2%9E25%E4%BE%8B%E7%A1%AE%E8%AF%8A+%E5%85%B6%E4%B8%AD%E6%9C%AC%E5%9C%9F9%E4%BE%8B&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:21:48,615 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=31%E7%9C%81%E6%96%B0%E5%A2%9E25%E4%BE%8B%E7%A1%AE%E8%AF%8A+%E5%85%B6%E4%B8%AD%E6%9C%AC%E5%9C%9F9%E4%BE%8B&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:21:48,618 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): baike.baidu.com:443
+2020-12-31 09:21:48,981 - connectionpool.py[line:393] - DEBUG: https://baike.baidu.com:443 "GET / HTTP/1.1" 302 154
+2020-12-31 09:21:49,030 - connectionpool.py[line:393] - DEBUG: https://baike.baidu.com:443 "GET /error.html?status=403&uri=/ HTTP/1.1" 200 None
+2020-12-31 09:21:49,108 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://baike.baidu.com', 'tags': ['百科', '百度', '意见反馈', '页面', '百科全书', '中文', '问题', '错误']}
+2020-12-31 09:21:49,108 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): ir.baidu.com:80
+2020-12-31 09:21:49,439 - connectionpool.py[line:393] - DEBUG: http://ir.baidu.com:80 "GET / HTTP/1.1" 301 0
+2020-12-31 09:21:49,449 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ir.baidu.com:443
+2020-12-31 09:21:50,175 - connectionpool.py[line:393] - DEBUG: https://ir.baidu.com:443 "GET / HTTP/1.1" 200 11032
+2020-12-31 09:21:50,485 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://ir.baidu.com', 'tags': []}
+2020-12-31 09:21:50,517 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): top.baidu.com:80
+2020-12-31 09:21:51,490 - connectionpool.py[line:393] - DEBUG: http://top.baidu.com:80 "GET /?fr=mhd_card HTTP/1.1" 200 None
+2020-12-31 09:21:52,337 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://top.baidu.com/?fr=mhd_card', 'tags': ['热点', '榜单', '人物', '关键词', '新冠', '郭敬明', '言情', '指数']}
+2020-12-31 09:21:52,337 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): haokan.baidu.com:443
+2020-12-31 09:21:53,130 - connectionpool.py[line:393] - DEBUG: https://haokan.baidu.com:443 "GET /?sfrom=baidu-top HTTP/1.1" 200 None
+2020-12-31 09:21:53,700 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://haokan.baidu.com/?sfrom=baidu-top', 'tags': ['视频', '特朗普', '人比人', '影视音乐', '舞美', '邵永灵', '张柏芝', '教欧弟']}
+2020-12-31 09:21:53,717 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.baidu.com:80
+2020-12-31 09:21:53,801 - connectionpool.py[line:393] - DEBUG: http://www.baidu.com:80 "GET /cache/setindex/index.html HTTP/1.1" 200 6710
+2020-12-31 09:21:54,036 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.baidu.com/cache/setindex/index.html', 'tags': ['浏览器', '主页', '百度', '杀病毒', '按钮', '中毒', '菜单', '选项']}
+2020-12-31 09:21:54,046 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:21:54,296 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%A5%B3%E5%AD%90%E7%BD%91%E8%B4%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%9C%89%E4%B8%A7%E4%BA%8B%E8%87%82%E7%AB%A0&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:21:54,303 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%A5%B3%E5%AD%90%E7%BD%91%E8%B4%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%9C%89%E4%B8%A7%E4%BA%8B%E8%87%82%E7%AB%A0&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:21:54,317 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:21:54,603 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%9B%A0%E7%97%85%E9%80%80%E5%87%BA%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E8%B7%A8%E5%B9%B4%E6%99%9A%E4%BC%9A&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:21:54,619 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%9B%A0%E7%97%85%E9%80%80%E5%87%BA%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E8%B7%A8%E5%B9%B4%E6%99%9A%E4%BC%9A&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:21:54,637 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:21:54,902 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:21:54,960 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/', 'tags': ['百度', '意见反馈', '视频', '地图', '新闻', '产品']}
+2020-12-31 09:21:54,968 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): xueshu.baidu.com:80
+2020-12-31 09:21:55,143 - connectionpool.py[line:393] - DEBUG: http://xueshu.baidu.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:21:55,320 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://xueshu.baidu.com', 'tags': ['百度', '学术', '期刊', '热门', '论文', '意见反馈', '网站', '域名']}
+2020-12-31 09:21:55,340 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): image.baidu.com:80
+2020-12-31 09:21:55,531 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET / HTTP/1.1" 301 59
+2020-12-31 09:21:55,533 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): image.baidu.com:443
+2020-12-31 09:21:55,820 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET / HTTP/1.1" 302 154
+2020-12-31 09:21:55,901 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:55,985 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:56,055 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:56,134 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:56,210 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:56,286 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:56,367 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:56,450 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:56,532 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:56,613 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:56,678 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:56,766 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:56,839 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:56,921 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:57,000 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:57,088 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:57,165 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:57,268 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:57,352 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:57,416 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:57,485 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:57,569 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:57,646 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:57,736 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:57,812 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:57,887 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:58,009 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:58,088 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:21:58,165 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:21:58,255 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:21:58] "POST / HTTP/1.1" 500 -
+2020-12-31 09:21:58,355 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:21:58] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-12-31 09:21:58,360 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:21:58] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-12-31 09:21:58,362 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:21:58] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-12-31 09:21:58,486 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:21:58] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-12-31 09:21:58,511 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:21:58] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-12-31 09:21:59,042 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:21:59] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-12-31 09:22:07,168 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:22:07] "GET / HTTP/1.1" 200 -
+2020-12-31 09:22:09,252 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:22:09,253 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.baidu.com valid
+2020-12-31 09:22:09,304 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.baidu.com has been connected by socket without socks proxy
+2020-12-31 09:22:09,306 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+
+2020-12-31 09:22:09,326 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:22:09,546 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:22:09,712 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): beian.miit.gov.cn:443
+2020-12-31 09:22:09,970 - connectionpool.py[line:393] - DEBUG: https://beian.miit.gov.cn:443 "GET / HTTP/1.1" 521 None
+2020-12-31 09:22:09,998 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2020-12-31 09:22:10,010 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://beian.miit.gov.cn', 'tags': []}
+2020-12-31 09:22:10,018 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): music.taihe.com:80
+2020-12-31 09:22:10,181 - connectionpool.py[line:393] - DEBUG: http://music.taihe.com:80 "GET / HTTP/1.1" 302 169
+2020-12-31 09:22:10,182 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): music.taihe.com:443
+2020-12-31 09:22:10,704 - connectionpool.py[line:393] - DEBUG: https://music.taihe.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:22:12,383 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://music.taihe.com', 'tags': ['华语', '音乐', '歌单', '私藏', '朋克', '歌曲', '单曲', '大张伟']}
+2020-12-31 09:22:12,391 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): wenku.baidu.com:80
+2020-12-31 09:22:12,836 - connectionpool.py[line:393] - DEBUG: http://wenku.baidu.com:80 "GET /search?lm=0&od=0&ie=utf-8 HTTP/1.1" 301 178
+2020-12-31 09:22:12,849 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): wenku.baidu.com:443
+2020-12-31 09:22:13,210 - connectionpool.py[line:393] - DEBUG: https://wenku.baidu.com:443 "GET /search?lm=0&od=0&ie=utf-8 HTTP/1.1" 302 None
+2020-12-31 09:22:13,504 - connectionpool.py[line:393] - DEBUG: https://wenku.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:22:13,727 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8', 'tags': ['格式', '精品', '图书', '文库', '特权', '会员', '入门', '福利社']}
+2020-12-31 09:22:13,733 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.beian.gov.cn:80
+2020-12-31 09:22:13,939 - connectionpool.py[line:393] - DEBUG: http://www.beian.gov.cn:80 "GET /portal/registerSystemInfo?recordcode=11000002000001 HTTP/1.1" 200 13542
+2020-12-31 09:22:14,103 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001', 'tags': ['网站', '备案号', '验证码', '域名', '名称', '公安部', '备案', '地址']}
+2020-12-31 09:22:14,117 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.baidu.com:80
+2020-12-31 09:22:14,202 - connectionpool.py[line:393] - DEBUG: http://www.baidu.com:80 "GET /more/ HTTP/1.1" 200 10861
+2020-12-31 09:22:14,699 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.baidu.com/more/', 'tags': ['百度', '平台', '输入法', '服务平台', '海量', '开放平台', '工具', '音乐']}
+2020-12-31 09:22:14,709 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): map.baidu.com:443
+2020-12-31 09:22:15,249 - connectionpool.py[line:393] - DEBUG: https://map.baidu.com:443 "GET /?newmap=1&ie=utf-8&s=s HTTP/1.1" 200 None
+2020-12-31 09:22:16,667 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://map.baidu.com/?newmap=1&ie=utf-8&s=s', 'tags': ['端会', '详情页', '文档', '百度', '所需', '地图', '部署', '文件']}
+2020-12-31 09:22:16,667 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.hao123.com:443
+2020-12-31 09:22:17,141 - connectionpool.py[line:393] - DEBUG: https://www.hao123.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:22:19,947 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://www.hao123.com', 'tags': ['邮箱', '百度', '音乐', '视频', '搜狐', '新浪', '游戏', '手机']}
+2020-12-31 09:22:19,947 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:22:20,186 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%8C%97%E4%BA%AC%E9%A1%BA%E4%B9%89%E7%96%AB%E6%83%85%E5%9B%A0%E5%8D%B0%E5%B0%BC%E8%BE%93%E5%85%A5%E7%97%85%E4%BE%8B%E5%BC%95%E8%B5%B7&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:22:20,203 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%8C%97%E4%BA%AC%E9%A1%BA%E4%B9%89%E7%96%AB%E6%83%85%E5%9B%A0%E5%8D%B0%E5%B0%BC%E8%BE%93%E5%85%A5%E7%97%85%E4%BE%8B%E5%BC%95%E8%B5%B7&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:22:20,214 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:22:20,518 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=31%E7%9C%81%E6%96%B0%E5%A2%9E25%E4%BE%8B%E7%A1%AE%E8%AF%8A+%E5%85%B6%E4%B8%AD%E6%9C%AC%E5%9C%9F9%E4%BE%8B&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:22:20,530 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=31%E7%9C%81%E6%96%B0%E5%A2%9E25%E4%BE%8B%E7%A1%AE%E8%AF%8A+%E5%85%B6%E4%B8%AD%E6%9C%AC%E5%9C%9F9%E4%BE%8B&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:22:20,533 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): baike.baidu.com:443
+2020-12-31 09:22:20,866 - connectionpool.py[line:393] - DEBUG: https://baike.baidu.com:443 "GET / HTTP/1.1" 302 154
+2020-12-31 09:22:20,918 - connectionpool.py[line:393] - DEBUG: https://baike.baidu.com:443 "GET /error.html?status=403&uri=/ HTTP/1.1" 200 None
+2020-12-31 09:22:20,964 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://baike.baidu.com', 'tags': ['百科', '百度', '意见反馈', '页面', '百科全书', '中文', '问题', '错误']}
+2020-12-31 09:22:20,965 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): ir.baidu.com:80
+2020-12-31 09:22:21,727 - connectionpool.py[line:393] - DEBUG: http://ir.baidu.com:80 "GET / HTTP/1.1" 301 0
+2020-12-31 09:22:21,740 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ir.baidu.com:443
+2020-12-31 09:22:23,440 - connectionpool.py[line:393] - DEBUG: https://ir.baidu.com:443 "GET / HTTP/1.1" 200 11032
+2020-12-31 09:22:24,098 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://ir.baidu.com', 'tags': []}
+2020-12-31 09:22:24,102 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): top.baidu.com:80
+2020-12-31 09:22:24,974 - connectionpool.py[line:393] - DEBUG: http://top.baidu.com:80 "GET /?fr=mhd_card HTTP/1.1" 200 None
+2020-12-31 09:22:25,946 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://top.baidu.com/?fr=mhd_card', 'tags': ['热点', '榜单', '人物', '关键词', '新冠', '郭敬明', '言情', '指数']}
+2020-12-31 09:22:25,954 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): haokan.baidu.com:443
+2020-12-31 09:22:26,715 - connectionpool.py[line:393] - DEBUG: https://haokan.baidu.com:443 "GET /?sfrom=baidu-top HTTP/1.1" 200 None
+2020-12-31 09:22:27,342 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://haokan.baidu.com/?sfrom=baidu-top', 'tags': ['视频', '师傅', '影视音乐', '舞美', '钱惠丽', '王志萍', '背演', '晓庄']}
+2020-12-31 09:22:27,348 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.baidu.com:80
+2020-12-31 09:22:27,526 - connectionpool.py[line:393] - DEBUG: http://www.baidu.com:80 "GET /cache/setindex/index.html HTTP/1.1" 200 6710
+2020-12-31 09:22:27,764 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.baidu.com/cache/setindex/index.html', 'tags': ['浏览器', '主页', '百度', '杀病毒', '按钮', '中毒', '菜单', '选项']}
+2020-12-31 09:22:27,771 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:22:28,031 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%A5%B3%E5%AD%90%E7%BD%91%E8%B4%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%9C%89%E4%B8%A7%E4%BA%8B%E8%87%82%E7%AB%A0&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:22:28,052 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%A5%B3%E5%AD%90%E7%BD%91%E8%B4%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%9C%89%E4%B8%A7%E4%BA%8B%E8%87%82%E7%AB%A0&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:22:28,062 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:22:28,298 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%9B%A0%E7%97%85%E9%80%80%E5%87%BA%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E8%B7%A8%E5%B9%B4%E6%99%9A%E4%BC%9A&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:22:28,318 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%9B%A0%E7%97%85%E9%80%80%E5%87%BA%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E8%B7%A8%E5%B9%B4%E6%99%9A%E4%BC%9A&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:22:28,327 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:22:28,582 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:22:28,618 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/', 'tags': ['百度', '意见反馈', '视频', '地图', '新闻', '产品']}
+2020-12-31 09:22:28,630 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): xueshu.baidu.com:80
+2020-12-31 09:22:28,789 - connectionpool.py[line:393] - DEBUG: http://xueshu.baidu.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:22:29,046 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://xueshu.baidu.com', 'tags': ['百度', '学术', '期刊', '热门', '论文', '意见反馈', '网站', '域名']}
+2020-12-31 09:22:29,052 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): image.baidu.com:80
+2020-12-31 09:22:29,241 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET / HTTP/1.1" 301 59
+2020-12-31 09:22:29,251 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): image.baidu.com:443
+2020-12-31 09:22:29,574 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET / HTTP/1.1" 302 154
+2020-12-31 09:22:29,658 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:29,717 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:29,797 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:29,884 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:29,974 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:30,038 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:30,097 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:30,178 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:30,297 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:30,366 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:30,445 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:30,525 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:30,604 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:30,686 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:30,763 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:30,866 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:30,930 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:30,999 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:31,084 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:31,165 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:31,264 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:31,336 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:31,400 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:31,491 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:31,564 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:31,651 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:31,733 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:31,814 - connectionpool.py[line:393] - DEBUG: https://image.baidu.com:443 "GET /search/error.html HTTP/1.1" 302 154
+2020-12-31 09:22:31,905 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /search/error.html HTTP/1.1" 301 76
+2020-12-31 09:22:31,948 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:22:31] "POST / HTTP/1.1" 500 -
+2020-12-31 09:22:32,006 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:22:32] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-12-31 09:22:32,017 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:22:32] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-12-31 09:22:32,020 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:22:32] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-12-31 09:22:32,197 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:22:32] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-12-31 09:22:32,228 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:22:32] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-12-31 09:22:32,748 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:22:32] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-12-31 09:23:18,784 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:23:18,785 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.sogou.com valid
+2020-12-31 09:23:18,853 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.sogou.com has been connected by socket without socks proxy
+2020-12-31 09:23:18,855 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+
+2020-12-31 09:23:18,857 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.sogou.com:443
+2020-12-31 09:23:19,159 - connectionpool.py[line:393] - DEBUG: https://www.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:23:19,207 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): gouwu.sogou.com:80
+2020-12-31 09:23:19,363 - connectionpool.py[line:393] - DEBUG: http://gouwu.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:23:19,411 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://gouwu.sogou.com/', 'tags': ['搜狗', '购物', '比价', '图片', '输入法', '网购', '扫码', '浏览器']}
+2020-12-31 09:23:19,421 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): ie.sogou.com:80
+2020-12-31 09:23:19,623 - connectionpool.py[line:393] - DEBUG: http://ie.sogou.com:80 "GET / HTTP/1.1" 301 162
+2020-12-31 09:23:19,625 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): ie.sogou.com:443
+2020-12-31 09:23:20,232 - connectionpool.py[line:393] - DEBUG: https://ie.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:23:20,276 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://ie.sogou.com/', 'tags': ['搜狗', '输入法', '手机', '拼音输入', '手游', '浏览器', '号码', '助手']}
+2020-12-31 09:23:20,287 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): baike.sogou.com:80
+2020-12-31 09:23:20,494 - connectionpool.py[line:393] - DEBUG: http://baike.sogou.com:80 "GET /Home.v HTTP/1.1" 301 193
+2020-12-31 09:23:20,495 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): baike.sogou.com:443
+2020-12-31 09:23:20,861 - connectionpool.py[line:393] - DEBUG: https://baike.sogou.com:443 "GET /Home.v HTTP/1.1" 403 9
+2020-12-31 09:23:20,875 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://baike.sogou.com/Home.v', 'tags': []}
+2020-12-31 09:23:20,875 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): pic.sogou.com:80
+2020-12-31 09:23:21,146 - connectionpool.py[line:393] - DEBUG: http://pic.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:23:25,365 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://pic.sogou.com', 'tags': ['边框', '素材', '西游记', '盘丝洞', '美女', '高清', '图片', '搜库']}
+2020-12-31 09:23:25,365 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): zhihu.sogou.com:80
+2020-12-31 09:23:25,497 - connectionpool.py[line:393] - DEBUG: http://zhihu.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:23:25,622 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://zhihu.sogou.com/', 'tags': ['搜狗', '问问', '公网', '意见反馈', '百科', '搜索引擎', '网页', '链接']}
+2020-12-31 09:23:25,625 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): 123.sogou.com:80
+2020-12-31 09:23:25,810 - connectionpool.py[line:393] - DEBUG: http://123.sogou.com:80 "GET / HTTP/1.1" 302 154
+2020-12-31 09:23:25,827 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): 123.sogou.com:443
+2020-12-31 09:23:26,352 - connectionpool.py[line:393] - DEBUG: https://123.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:23:27,249 - sjisprober.py[line:61] - DEBUG: SHIFT_JIS Japanese prober hit error at byte 590
+2020-12-31 09:23:27,249 - eucjpprober.py[line:62] - DEBUG: EUC-JP Japanese prober hit error at byte 573
+2020-12-31 09:23:27,255 - mbcharsetprober.py[line:66] - DEBUG: GB2312 Chinese prober hit error at byte 1127
+2020-12-31 09:23:27,257 - mbcharsetprober.py[line:66] - DEBUG: EUC-KR Korean prober hit error at byte 573
+2020-12-31 09:23:27,258 - mbcharsetprober.py[line:66] - DEBUG: CP949 Korean prober hit error at byte 573
+2020-12-31 09:23:27,258 - mbcharsetprober.py[line:66] - DEBUG: Big5 Chinese prober hit error at byte 574
+2020-12-31 09:23:27,258 - mbcharsetprober.py[line:66] - DEBUG: EUC-TW Taiwan prober hit error at byte 573
+2020-12-31 09:23:27,845 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:23:28,013 - sbcharsetprober.py[line:119] - DEBUG: MacCyrillic confidence = 0.017223664369815404, below negative shortcut threshhold 0.05
+2020-12-31 09:23:28,423 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-7 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:23:28,474 - sbcharsetprober.py[line:119] - DEBUG: windows-1253 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:23:28,554 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:23:28,656 - sbcharsetprober.py[line:119] - DEBUG: windows-1251 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:23:29,014 - sbcharsetprober.py[line:119] - DEBUG: windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:23:29,071 - sbcharsetprober.py[line:119] - DEBUG: windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:23:29,434 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.0
+2020-12-31 09:23:29,434 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.0
+2020-12-31 09:23:29,434 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:23:29,434 - charsetgroupprober.py[line:97] - DEBUG: MacCyrillic not active
+2020-12-31 09:23:29,434 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.06534269592463333
+2020-12-31 09:23:29,434 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.05659428295540774
+2020-12-31 09:23:29,438 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-7 not active
+2020-12-31 09:23:29,438 - charsetgroupprober.py[line:97] - DEBUG: windows-1253 not active
+2020-12-31 09:23:29,439 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:23:29,440 - charsetgroupprober.py[line:97] - DEBUG: windows-1251 not active
+2020-12-31 09:23:29,440 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.06009518588132275
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.46350345950550503
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.0
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.0
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:97] - DEBUG: MacCyrillic not active
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.06534269592463333
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.05659428295540774
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-7 not active
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:97] - DEBUG: windows-1253 not active
+2020-12-31 09:23:29,441 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:23:29,450 - charsetgroupprober.py[line:97] - DEBUG: windows-1251 not active
+2020-12-31 09:23:29,450 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.06009518588132275
+2020-12-31 09:23:29,450 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.46350345950550503
+2020-12-31 09:23:29,450 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:23:29,450 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:23:29,450 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:23:29,455 - dammit.py[line:381] - WARNING: Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2020-12-31 09:23:30,891 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://123.sogou.com/', 'tags': ['搜狗', '热门', '特价', '游戏', '综艺', '小游戏', '淘宝', '电视剧']}
+2020-12-31 09:23:30,900 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): v.sogou.com:443
+2020-12-31 09:23:31,415 - connectionpool.py[line:393] - DEBUG: https://v.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:23:39,550 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://v.sogou.com/', 'tags': ['大陆', '剧情', '视频', '大卫', '内地', '小猪', '动画', '爱情']}
+2020-12-31 09:23:39,554 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): as.sogou.com:80
+2020-12-31 09:23:39,746 - connectionpool.py[line:393] - DEBUG: http://as.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:23:40,607 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://as.sogou.com/', 'tags': ['评语', '手机', '搜狗', '浏览器', '视频', '途牛', '百度', '美化']}
+2020-12-31 09:23:40,611 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): wenwen.sogou.com:443
+2020-12-31 09:23:41,108 - connectionpool.py[line:393] - DEBUG: https://wenwen.sogou.com:443 "GET /?ch=websearch HTTP/1.1" 403 9
+2020-12-31 09:23:41,123 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://wenwen.sogou.com/?ch=websearch', 'tags': []}
+2020-12-31 09:23:41,132 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): scholar.sogou.com:80
+2020-12-31 09:23:41,368 - connectionpool.py[line:393] - DEBUG: http://scholar.sogou.com:80 "GET /?fr=common_index_nav HTTP/1.1" 200 None
+2020-12-31 09:23:41,743 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://scholar.sogou.com?fr=common_index_nav', 'tags': ['论文', '学者', '院士', '信息', '中国工程院', '图灵奖', '引擎', '专著']}
+2020-12-31 09:23:41,757 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.beian.gov.cn:80
+2020-12-31 09:23:42,171 - connectionpool.py[line:393] - DEBUG: http://www.beian.gov.cn:80 "GET /portal/registerSystemInfo?recordcode=11000002000025 HTTP/1.1" 200 13541
+2020-12-31 09:23:42,341 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000025', 'tags': ['网站', '备案号', '验证码', '域名', '名称', '公安部', '备案', '地址']}
+2020-12-31 09:23:42,355 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): news.sogou.com:80
+2020-12-31 09:23:42,573 - connectionpool.py[line:393] - DEBUG: http://news.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:23:42,591 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://news.sogou.com', 'tags': ['搜狗', '新闻']}
+2020-12-31 09:23:42,599 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): b.sogou.com:80
+2020-12-31 09:23:42,876 - connectionpool.py[line:393] - DEBUG: http://b.sogou.com:80 "GET / HTTP/1.1" 302 62
+2020-12-31 09:23:42,897 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): b.sogou.com:443
+2020-12-31 09:23:43,430 - connectionpool.py[line:393] - DEBUG: https://b.sogou.com:443 "GET /pca/ HTTP/1.1" 200 None
+2020-12-31 09:23:43,631 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://b.sogou.com/', 'tags': ['场景', '搜狗', '精准', '广告', '输入法', '客户', '聊天', '日语']}
+2020-12-31 09:23:43,640 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): fankui.help.sogou.com:80
+2020-12-31 09:23:43,992 - connectionpool.py[line:393] - DEBUG: http://fankui.help.sogou.com:80 "GET /index.php/web/web/index/type/4 HTTP/1.1" 200 9892
+2020-12-31 09:23:44,074 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://fankui.help.sogou.com/index.php/web/web/index/type/4', 'tags': ['搜狗', '谢谢', '宝贵意见', '问题', '验证码', '邮箱', '网页', '中文']}
+2020-12-31 09:23:44,075 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://www.sogou.com
+2020-12-31 09:23:44,076 - NS_Utils.py[line:62] - INFO: root database closed
+2020-12-31 09:23:44,081 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:23:44] "POST / HTTP/1.1" 200 -
+2020-12-31 09:23:52,088 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:23:52] "GET / HTTP/1.1" 200 -
+2020-12-31 09:24:16,749 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:24:16,750 - NS_SpiderCore.py[line:38] - INFO: Url:http://www.njupt.edu.cn valid
+2020-12-31 09:24:16,827 - NS_SpiderCore.py[line:78] - INFO: Url:http://www.njupt.edu.cn has been connected by socket without socks proxy
+2020-12-31 09:24:16,829 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+
+2020-12-31 09:24:16,834 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:17,011 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET / HTTP/1.1" 200 14962
+2020-12-31 09:24:17,253 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:17,371 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET / HTTP/1.1" 200 14962
+2020-12-31 09:24:17,920 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn', 'tags': ['南邮', '邮电大学', '校区', '研究生', '专题', '南京', '大学生', '校园']}
+2020-12-31 09:24:17,936 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): zbb.njupt.edu.cn:80
+2020-12-31 09:24:18,456 - connectionpool.py[line:393] - DEBUG: http://zbb.njupt.edu.cn:80 "GET /zbgghwl/index.chtml HTTP/1.1" 200 None
+2020-12-31 09:24:18,585 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://zbb.njupt.edu.cn/zbgghwl/index.chtml', 'tags': ['邮电大学', '南京', '项目', '公告', '信息', '平台', '图书馆', '招标']}
+2020-12-31 09:24:18,600 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:18,705 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1224/c53a179236/page.htm HTTP/1.1" 200 8552
+2020-12-31 09:24:19,185 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1224/c53a179236/page.htm', 'tags': ['南邮', '特等奖', '艺术', '大学生', '校区', '江苏省', '邮编', '高校']}
+2020-12-31 09:24:19,202 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): mp.weixin.qq.com:443
+2020-12-31 09:24:19,690 - connectionpool.py[line:393] - DEBUG: https://mp.weixin.qq.com:443 "GET /s?__biz=MzAxNjMxMDIyNw==&mid=2658422889&idx=1&sn=ea260e2fa96ec66e52558e712ccf7994&chksm=80763ad5b701b3c306db21091982e53db62a453e938c5b1acab715aa1602d84bec30c795f6cc&token=1325124048&lang=zh_CN HTTP/1.1" 200 121509
+2020-12-31 09:24:24,150 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://mp.weixin.qq.com/s?__biz=MzAxNjMxMDIyNw==&mid=2658422889&idx=1&sn=ea260e2fa96ec66e52558e712ccf7994&chksm=80763ad5b701b3c306db21091982e53db62a453e938c5b1acab715aa1602d84bec30c795f6cc&token=1325124048&lang=zh_CN#rd', 'tags': ['戴永刚', '邮电大学', '南邮', '南京', '销路', '第一书记', '农产品', '老人']}
+2020-12-31 09:24:24,168 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:24,303 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2019/0528/c8566a150184/page.htm HTTP/1.1" 200 20286
+2020-12-31 09:24:24,970 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2019/0528/c8566a150184/page.htm', 'tags': ['人才', '邮电大学', '师资', '学院', '高水平', '南京', '国家', '学术']}
+2020-12-31 09:24:24,988 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): zs.njupt.edu.cn:80
+2020-12-31 09:24:25,151 - connectionpool.py[line:393] - DEBUG: http://zs.njupt.edu.cn:80 "GET / HTTP/1.1" 200 6614
+2020-12-31 09:24:25,506 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://zs.njupt.edu.cn', 'tags': ['邮电大学', '学院', '南邮', '南京', '统计表', '邮编', '招生网', '南京市']}
+2020-12-31 09:24:25,510 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): njupt.cuepa.cn:80
+2020-12-31 09:24:26,113 - connectionpool.py[line:393] - DEBUG: http://njupt.cuepa.cn:80 "GET / HTTP/1.1" 302 145
+2020-12-31 09:24:26,126 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): njupt.ihwrm.com:80
+2020-12-31 09:24:26,625 - connectionpool.py[line:393] - DEBUG: http://njupt.ihwrm.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:24:26,834 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://njupt.cuepa.cn/', 'tags': ['邮电大学', '校党委', '巡视组', '刘陈', '南京', '本报讯', '法治', '论坛']}
+2020-12-31 09:24:26,834 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:26,995 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2016/1124/c240a10071/page.htm HTTP/1.1" 200 8308
+2020-12-31 09:24:27,313 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2016/1124/c240a10071/page.htm', 'tags': ['南邮', '李露曦', '科研', '专业', '奖学金', '校区', '邮编', '学年']}
+2020-12-31 09:24:27,322 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:27,406 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /nyxg/list.htm HTTP/1.1" 200 10559
+2020-12-31 09:24:27,767 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/nyxg/list.htm', 'tags': ['南邮', '校歌', '校区', '校园', '实景', '邮编', '宋体', '校史']}
+2020-12-31 09:24:27,778 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.beian.gov.cn:80
+2020-12-31 09:24:27,956 - connectionpool.py[line:393] - DEBUG: http://www.beian.gov.cn:80 "GET /portal/registerSystemInfo?recordcode=32011302320419 HTTP/1.1" 200 13541
+2020-12-31 09:24:28,084 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32011302320419', 'tags': ['网站', '备案号', '验证码', '域名', '名称', '公安部', '备案', '地址']}
+2020-12-31 09:24:28,099 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:28,251 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1224/c53a179234/page.htm HTTP/1.1" 200 12167
+2020-12-31 09:24:28,735 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1224/c53a179234/page.htm', 'tags': ['师德师', '南邮', '师德', '江苏', '校区', '郭新宇', '教师', '高校']}
+2020-12-31 09:24:28,754 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:24:28,863 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1230/c53a179674/page.htm HTTP/1.1" 200 14560
+2020-12-31 09:24:29,525 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1230/c53a179674/page.htm', 'tags': ['研究生', '南邮', '高质量', '导师', '校党委', '校区', '会议', '美兰']}
+2020-12-31 09:24:29,542 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): 202.119.175.199:80
+2020-12-31 09:24:50,640 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:50] "POST / HTTP/1.1" 500 -
+2020-12-31 09:24:50,736 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-12-31 09:24:50,769 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:50] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-12-31 09:24:50,805 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-12-31 09:24:51,004 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-12-31 09:24:51,033 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:51] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-12-31 09:24:52,645 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:24:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -

@@ -1,0 +1,307 @@
+2020-12-31 09:10:38,755 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:10:38,760 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.sogou.com valid
+2020-12-31 09:10:38,858 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.sogou.com has been connected by socket without socks proxy
+2020-12-31 09:10:38,862 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+
+2020-12-31 09:10:38,877 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.sogou.com:443
+2020-12-31 09:10:39,254 - connectionpool.py[line:393] - DEBUG: https://www.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:10:39,292 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): baike.sogou.com:443
+2020-12-31 09:10:39,923 - connectionpool.py[line:393] - DEBUG: https://baike.sogou.com:443 "GET /kexue/home.htm HTTP/1.1" 403 9
+2020-12-31 09:10:39,927 - __init__.py[line:113] - DEBUG: Building prefix dict from the default dictionary ...
+2020-12-31 09:10:39,938 - __init__.py[line:133] - DEBUG: Loading model from cache C:\Users\HP\AppData\Local\Temp\jieba.cache
+2020-12-31 09:10:42,026 - __init__.py[line:165] - DEBUG: Loading model cost 2.099 seconds.
+2020-12-31 09:10:42,026 - __init__.py[line:166] - DEBUG: Prefix dict has been built successfully.
+2020-12-31 09:10:42,033 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://baike.sogou.com/kexue/home.htm', 'tags': []}
+2020-12-31 09:10:42,034 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): baike.sogou.com:80
+2020-12-31 09:10:43,076 - connectionpool.py[line:393] - DEBUG: http://baike.sogou.com:80 "GET /Home.v HTTP/1.1" 301 193
+2020-12-31 09:10:43,091 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): baike.sogou.com:443
+2020-12-31 09:10:43,643 - connectionpool.py[line:393] - DEBUG: https://baike.sogou.com:443 "GET /Home.v HTTP/1.1" 403 9
+2020-12-31 09:10:43,657 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://baike.sogou.com/Home.v', 'tags': []}
+2020-12-31 09:10:43,662 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.12377.cn:80
+2020-12-31 09:10:44,853 - connectionpool.py[line:393] - DEBUG: http://www.12377.cn:80 "GET / HTTP/1.1" 301 None
+2020-12-31 09:10:44,975 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.12377.cn:443
+2020-12-31 09:10:49,172 - connectionpool.py[line:393] - DEBUG: https://www.12377.cn:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:10:50,092 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.12377.cn', 'tags': ['网信', '网络', '互联网', '信息', '中华人民共和国', '指南', '电信', '小类']}
+2020-12-31 09:10:50,105 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): fankui.help.sogou.com:80
+2020-12-31 09:10:51,104 - connectionpool.py[line:393] - DEBUG: http://fankui.help.sogou.com:80 "GET /index.php/web/web/index/type/4 HTTP/1.1" 200 9892
+2020-12-31 09:10:51,198 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://fankui.help.sogou.com/index.php/web/web/index/type/4', 'tags': ['搜狗', '谢谢', '宝贵意见', '问题', '验证码', '邮箱', '网页', '中文']}
+2020-12-31 09:10:51,210 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.sogou.com:80
+2020-12-31 09:10:52,649 - connectionpool.py[line:393] - DEBUG: http://www.sogou.com:80 "GET /docs/more.htm?v=1 HTTP/1.1" 200 None
+2020-12-31 09:10:52,845 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.sogou.com/docs/more.htm?v=1', 'tags': ['搜狗', '权威', '英文', '手机', '海量', '网页', '信息', '输入法']}
+2020-12-31 09:10:52,859 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): gouwu.sogou.com:80
+2020-12-31 09:10:53,125 - connectionpool.py[line:393] - DEBUG: http://gouwu.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:10:53,210 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://gouwu.sogou.com/', 'tags': ['搜狗', '购物', '比价', '图片', '输入法', '网购', '扫码', '浏览器']}
+2020-12-31 09:10:53,212 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): mingyi.sogou.com:80
+2020-12-31 09:10:53,795 - connectionpool.py[line:393] - DEBUG: http://mingyi.sogou.com:80 "GET /?fr=common_index_nav HTTP/1.1" 200 None
+2020-12-31 09:10:53,915 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://mingyi.sogou.com?fr=common_index_nav', 'tags': ['搜狗', '公网', '意见反馈', '网页', '视频', '汉语', '问问', '英文']}
+2020-12-31 09:10:53,915 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): b.sogou.com:80
+2020-12-31 09:10:54,391 - connectionpool.py[line:393] - DEBUG: http://b.sogou.com:80 "GET / HTTP/1.1" 302 62
+2020-12-31 09:10:54,455 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): b.sogou.com:443
+2020-12-31 09:10:55,727 - connectionpool.py[line:393] - DEBUG: https://b.sogou.com:443 "GET /pcb/ HTTP/1.1" 200 None
+2020-12-31 09:10:55,952 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://b.sogou.com/', 'tags': ['场景', '搜狗', '精准', '广告', '输入法', '客户', '聊天', '日语']}
+2020-12-31 09:10:55,956 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): zhihu.sogou.com:80
+2020-12-31 09:10:58,250 - connectionpool.py[line:393] - DEBUG: http://zhihu.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:11:00,717 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://zhihu.sogou.com/', 'tags': ['搜狗', '问问', '公网', '意见反馈', '百科', '搜索引擎', '网页', '链接']}
+2020-12-31 09:11:00,724 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): ir.sogou.com:80
+2020-12-31 09:11:01,906 - connectionpool.py[line:393] - DEBUG: http://ir.sogou.com:80 "GET / HTTP/1.1" 200 10648
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: utf-8  confidence = 0.505
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: SHIFT_JIS Japanese confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: EUC-JP Japanese confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: GB2312 Chinese confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: EUC-KR Korean confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: CP949 Korean confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: Big5 Chinese confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: EUC-TW Taiwan confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-5 Russian confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: MacCyrillic Russian confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-7 Greek confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: windows-1253 Greek confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-5 Bulgairan confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Bulgarian confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.0
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.5339794688390951
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.01
+2020-12-31 09:11:05,242 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.01
+2020-12-31 09:11:05,455 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://ir.sogou.com/', 'tags': []}
+2020-12-31 09:11:05,457 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): as.sogou.com:80
+2020-12-31 09:11:05,895 - connectionpool.py[line:393] - DEBUG: http://as.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:11:08,298 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://as.sogou.com/', 'tags': ['评语', '手机', '搜狗', '浏览器', '视频', '途牛', '百度', '美化']}
+2020-12-31 09:11:08,300 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): index.sogou.com:80
+2020-12-31 09:11:08,647 - connectionpool.py[line:393] - DEBUG: http://index.sogou.com:80 "GET / HTTP/1.1" 200 9453
+2020-12-31 09:11:08,811 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://index.sogou.com', 'tags': ['搜狗', '王嘉尔', '王牌', '三星', '乱码', '迪玛希', '中文字幕', '万族']}
+2020-12-31 09:11:08,823 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): hanyu.sogou.com:80
+2020-12-31 09:11:09,289 - connectionpool.py[line:393] - DEBUG: http://hanyu.sogou.com:80 "GET /?fr=pcweb_index_nav HTTP/1.1" 302 71
+2020-12-31 09:11:09,496 - connectionpool.py[line:393] - DEBUG: http://hanyu.sogou.com:80 "GET /?prefetchredirect=1 HTTP/1.1" 200 None
+2020-12-31 09:11:21,655 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://hanyu.sogou.com?fr=pcweb_index_nav', 'tags': ['形容', '读书', '比喻', '成语', '文章', '示例', '读法', '接龙']}
+2020-12-31 09:11:21,665 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): news.sogou.com:80
+2020-12-31 09:11:21,889 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:11:21] "GET / HTTP/1.1" 200 -
+2020-12-31 09:11:21,960 - connectionpool.py[line:393] - DEBUG: http://news.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:11:21,964 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://news.sogou.com', 'tags': ['搜狗', '新闻']}
+2020-12-31 09:11:21,964 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): pic.sogou.com:80
+2020-12-31 09:11:22,474 - connectionpool.py[line:393] - DEBUG: http://pic.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:11:26,728 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://pic.sogou.com', 'tags': ['高清', '美女', '桌面壁纸', '搜狗', '新浪', '图集', '金晨', '壁纸']}
+2020-12-31 09:11:26,733 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): zhishi.sogou.com:80
+2020-12-31 09:11:26,928 - connectionpool.py[line:393] - DEBUG: http://zhishi.sogou.com:80 "GET / HTTP/1.1" 200 12669
+2020-12-31 09:11:27,059 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://zhishi.sogou.com', 'tags': ['搜狗', '问问', '公网', '意见反馈', '百科', '搜索引擎', '网页', '链接']}
+2020-12-31 09:11:27,059 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): corp.sogou.com:80
+2020-12-31 09:11:27,389 - connectionpool.py[line:393] - DEBUG: http://corp.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:11:27,591 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://corp.sogou.com/', 'tags': ['搜狗', '输入法', '硬件', '公司简介', '业务', '网址', '联系', '历程']}
+2020-12-31 09:11:27,600 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): weixin.sogou.com:80
+2020-12-31 09:11:27,806 - connectionpool.py[line:393] - DEBUG: http://weixin.sogou.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:11:28,791 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://weixin.sogou.com/', 'tags': ['新华网', '新冠', '央视网', '监委', '中央', '中央纪委', '主席', '疫情']}
+2020-12-31 09:11:28,805 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): corp.sogou.com:80
+2020-12-31 09:11:29,109 - connectionpool.py[line:393] - DEBUG: http://corp.sogou.com:80 "GET /private.html HTTP/1.1" 200 136182
+2020-12-31 09:11:31,211 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://corp.sogou.com/private.html', 'tags': ['搜狗', '个人信息', '信息', '产品', '公司', '账号', '政策', '孩子']}
+2020-12-31 09:11:31,211 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): 123.sogou.com:80
+2020-12-31 09:11:31,663 - connectionpool.py[line:393] - DEBUG: http://123.sogou.com:80 "GET / HTTP/1.1" 302 154
+2020-12-31 09:11:31,670 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): 123.sogou.com:443
+2020-12-31 09:11:32,441 - connectionpool.py[line:393] - DEBUG: https://123.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:11:33,539 - sjisprober.py[line:61] - DEBUG: SHIFT_JIS Japanese prober hit error at byte 590
+2020-12-31 09:11:33,539 - eucjpprober.py[line:62] - DEBUG: EUC-JP Japanese prober hit error at byte 573
+2020-12-31 09:11:33,549 - mbcharsetprober.py[line:66] - DEBUG: GB2312 Chinese prober hit error at byte 1127
+2020-12-31 09:11:33,554 - mbcharsetprober.py[line:66] - DEBUG: EUC-KR Korean prober hit error at byte 573
+2020-12-31 09:11:33,554 - mbcharsetprober.py[line:66] - DEBUG: CP949 Korean prober hit error at byte 573
+2020-12-31 09:11:33,554 - mbcharsetprober.py[line:66] - DEBUG: Big5 Chinese prober hit error at byte 574
+2020-12-31 09:11:33,554 - mbcharsetprober.py[line:66] - DEBUG: EUC-TW Taiwan prober hit error at byte 573
+2020-12-31 09:11:33,753 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:11:33,820 - sbcharsetprober.py[line:119] - DEBUG: MacCyrillic confidence = 0.017174831769828633, below negative shortcut threshhold 0.05
+2020-12-31 09:11:34,070 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-7 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:11:34,136 - sbcharsetprober.py[line:119] - DEBUG: windows-1253 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:11:34,205 - sbcharsetprober.py[line:119] - DEBUG: ISO-8859-5 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:11:34,280 - sbcharsetprober.py[line:119] - DEBUG: windows-1251 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:11:34,764 - sbcharsetprober.py[line:119] - DEBUG: windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:11:34,849 - sbcharsetprober.py[line:119] - DEBUG: windows-1255 confidence = 0.0, below negative shortcut threshhold 0.05
+2020-12-31 09:11:35,141 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.0
+2020-12-31 09:11:35,141 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.0
+2020-12-31 09:11:35,141 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:11:35,142 - charsetgroupprober.py[line:97] - DEBUG: MacCyrillic not active
+2020-12-31 09:11:35,142 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.06468950117214571
+2020-12-31 09:11:35,143 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.055993991782508544
+2020-12-31 09:11:35,143 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-7 not active
+2020-12-31 09:11:35,144 - charsetgroupprober.py[line:97] - DEBUG: windows-1253 not active
+2020-12-31 09:11:35,144 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:11:35,144 - charsetgroupprober.py[line:97] - DEBUG: windows-1251 not active
+2020-12-31 09:11:35,144 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.061427689032366714
+2020-12-31 09:11:35,144 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.46335314914412234
+2020-12-31 09:11:35,144 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:11:35,144 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:100] - DEBUG: windows-1251 Russian confidence = 0.0
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:100] - DEBUG: KOI8-R Russian confidence = 0.0
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:97] - DEBUG: MacCyrillic not active
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:100] - DEBUG: IBM866 Russian confidence = 0.06468950117214571
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:100] - DEBUG: IBM855 Russian confidence = 0.055993991782508544
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-7 not active
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:97] - DEBUG: windows-1253 not active
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:97] - DEBUG: ISO-8859-5 not active
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:97] - DEBUG: windows-1251 not active
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:100] - DEBUG: TIS-620 Thai confidence = 0.061427689032366714
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:100] - DEBUG: ISO-8859-9 Turkish confidence = 0.46335314914412234
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:100] - DEBUG: windows-1255 Hebrew confidence = 0.0
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:11:35,145 - charsetgroupprober.py[line:97] - DEBUG: windows-1255 not active
+2020-12-31 09:11:35,153 - dammit.py[line:381] - WARNING: Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2020-12-31 09:11:36,633 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://123.sogou.com/', 'tags': ['搜狗', '热门', '特价', '游戏', '综艺', '小游戏', '淘宝', '电视剧']}
+2020-12-31 09:11:36,637 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): fanyi.sogou.com:80
+2020-12-31 09:11:36,941 - connectionpool.py[line:393] - DEBUG: http://fanyi.sogou.com:80 "GET /?fr=common_index_nav_pc HTTP/1.1" 200 None
+2020-12-31 09:11:37,185 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://fanyi.sogou.com?fr=common_index_nav_pc', 'tags': ['搜狗', '中文', '自动检测', '文档', '日语', '词典', '英语', '智能']}
+2020-12-31 09:11:37,187 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): map.sogou.com:80
+2020-12-31 09:11:38,393 - connectionpool.py[line:393] - DEBUG: http://map.sogou.com:80 "GET / HTTP/1.1" 200 20390
+2020-12-31 09:11:38,861 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://map.sogou.com', 'tags': ['地图', '搜狗', '电子地图', '高清', '页面', '网页', '手机', '卫星']}
+2020-12-31 09:11:38,870 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): pinyin.sogou.com:80
+2020-12-31 09:11:39,134 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:11:39,135 - NS_SpiderCore.py[line:38] - INFO: Url:http://www.njupt.edu.cn valid
+2020-12-31 09:11:39,156 - connectionpool.py[line:393] - DEBUG: http://pinyin.sogou.com:80 "GET / HTTP/1.1" 301 184
+2020-12-31 09:11:39,159 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): pinyin.sogou.com:443
+2020-12-31 09:11:39,964 - connectionpool.py[line:393] - DEBUG: https://pinyin.sogou.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:11:40,049 - NS_SpiderCore.py[line:78] - INFO: Url:http://www.njupt.edu.cn has been connected by socket without socks proxy
+2020-12-31 09:11:40,054 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+
+2020-12-31 09:11:40,073 - NS_Utils.py[line:53] - INFO: graph of http://www.njupt.edu.cn inited
+2020-12-31 09:11:40,079 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:40,456 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET / HTTP/1.1" 200 14967
+2020-12-31 09:11:40,836 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://pinyin.sogou.com/', 'tags': ['雅黑', '输入法', '宋体', '搜狗', '浏览器', '词库', '皮肤', '野萌君']}
+2020-12-31 09:11:40,961 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): scholar.sogou.com:80
+2020-12-31 09:11:41,057 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:41,278 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /150/list.htm HTTP/1.1" 200 7006
+2020-12-31 09:11:41,279 - connectionpool.py[line:393] - DEBUG: http://scholar.sogou.com:80 "GET /?fr=common_index_nav HTTP/1.1" 200 None
+2020-12-31 09:11:41,655 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/150/list.htm', 'tags': ['专题', '南邮', '校区', '党代会', '页码', '邮编', '宋体', '南京市']}
+2020-12-31 09:11:41,719 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://scholar.sogou.com?fr=common_index_nav', 'tags': ['论文', '学者', '院士', '信息', '中国工程院', '图灵奖', '引擎', '专著']}
+2020-12-31 09:11:41,719 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:41,729 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): english.sogou.com:80
+2020-12-31 09:11:41,905 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET / HTTP/1.1" 200 14967
+2020-12-31 09:11:42,044 - connectionpool.py[line:393] - DEBUG: http://english.sogou.com:80 "GET /?fr=pcweb_index_nav HTTP/1.1" 200 None
+2020-12-31 09:11:42,723 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://english.sogou.com?fr=pcweb_index_nav', 'tags': ['搜狗', '情书', '英文', '猫咪', '资讯', '雅思考试', '防护用品', '公网']}
+2020-12-31 09:11:42,746 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://www.sogou.com
+2020-12-31 09:11:42,913 - NS_Utils.py[line:62] - INFO: root database closed
+2020-12-31 09:11:42,928 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:11:42] "POST / HTTP/1.1" 200 -
+2020-12-31 09:11:43,089 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn', 'tags': ['南邮', '邮电大学', '校区', '南京', '专题', '大学生', '校园', '研究生']}
+2020-12-31 09:11:43,106 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:43,235 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1225/c75a179392/page.htm HTTP/1.1" 200 9618
+2020-12-31 09:11:43,335 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1225/c75a179392/page.htm', 'tags': ['南邮', '校区', '作品展', '邮编', '宋体', '南京市', '校园', '书画']}
+2020-12-31 09:11:43,346 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:43,444 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1125/c75a176220/page.htm HTTP/1.1" 200 7465
+2020-12-31 09:11:43,897 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1125/c75a176220/page.htm', 'tags': ['南邮', '学术会议', '校区', '邮编', '宋体', '南京市', '论坛', '校园']}
+2020-12-31 09:11:43,913 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:44,045 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /38/list.htm HTTP/1.1" 200 7927
+2020-12-31 09:11:44,529 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/38/list.htm', 'tags': ['实验教学', '中心', '南邮', '教学质量', '校区', '信息', '邮编', '技术']}
+2020-12-31 09:11:44,544 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:44,706 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1226/c212a179430/page.htm HTTP/1.1" 200 7100
+2020-12-31 09:11:44,939 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1226/c212a179430/page.htm', 'tags': ['南邮', '校区', '客户端', '邮编', '地址', '扬子晚报', '宋体', '南京市']}
+2020-12-31 09:11:44,959 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:45,100 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /31/list.htm HTTP/1.1" 200 7927
+2020-12-31 09:11:45,510 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/31/list.htm', 'tags': ['实验教学', '中心', '南邮', '教学质量', '校区', '信息', '邮编', '技术']}
+2020-12-31 09:11:45,523 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): jyt.jiangsu.gov.cn:80
+2020-12-31 09:11:45,737 - connectionpool.py[line:393] - DEBUG: http://jyt.jiangsu.gov.cn:80 "GET / HTTP/1.1" 403 3735
+2020-12-31 09:11:45,829 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://jyt.jiangsu.gov.cn/', 'tags': ['管理员', '网站', '宇云', '误报', '客户端', '网址', '特征', '事件']}
+2020-12-31 09:11:45,852 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:45,969 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1218/c53a178581/page.htm HTTP/1.1" 200 12361
+2020-12-31 09:11:46,568 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1218/c53a178581/page.htm', 'tags': ['校友', '南通', '联络', '平台', '母校', '江苏', '南邮', '姜小舜']}
+2020-12-31 09:11:46,583 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): njupt.cuepa.cn:80
+2020-12-31 09:11:47,137 - connectionpool.py[line:393] - DEBUG: http://njupt.cuepa.cn:80 "GET / HTTP/1.1" 302 145
+2020-12-31 09:11:47,159 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): njupt.ihwrm.com:80
+2020-12-31 09:11:47,779 - connectionpool.py[line:393] - DEBUG: http://njupt.ihwrm.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:11:48,002 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://njupt.cuepa.cn/', 'tags': ['邮电大学', '校党委', '巡视组', '刘陈', '南京', '本报讯', '法治', '论坛']}
+2020-12-31 09:11:48,027 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:48,169 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /11/list.htm HTTP/1.1" 200 7543
+2020-12-31 09:11:48,547 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/11/list.htm', 'tags': ['南邮', '精神', '校区', '邮电大学', '校园', '阶段', '信息', '实景']}
+2020-12-31 09:11:48,562 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): news.njupt.edu.cn:80
+2020-12-31 09:11:49,565 - connectionpool.py[line:393] - DEBUG: http://news.njupt.edu.cn:80 "GET / HTTP/1.1" 200 18847
+2020-12-31 09:11:50,171 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://news.njupt.edu.cn', 'tags': ['南邮', '江苏省', '按钮', '学院', '研究生', '江苏', '大学生', '南京']}
+2020-12-31 09:11:50,191 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2020-12-31 09:11:50,555 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2016/1124/c240a10071/page.htm HTTP/1.1" 200 8308
+2020-12-31 09:11:50,933 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2016/1124/c240a10071/page.htm', 'tags': ['南邮', '李露曦', '科研', '专业', '奖学金', '校区', '邮编', '学年']}
+2020-12-31 09:11:50,953 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.pgzx.edu.cn:80
+2020-12-31 09:12:02,101 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:12:02] "POST / HTTP/1.1" 500 -
+2020-12-31 09:12:02,218 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:12:02] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2020-12-31 09:12:02,228 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:12:02] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2020-12-31 09:12:02,237 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:12:02] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2020-12-31 09:12:02,439 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:12:02] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-12-31 09:12:02,459 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:12:02] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2020-12-31 09:12:02,635 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:12:02] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2020-12-31 09:17:26,502 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:17:26] "GET / HTTP/1.1" 200 -
+2020-12-31 09:17:36,277 - NS_Utils.py[line:30] - INFO: root database connected
+2020-12-31 09:17:36,278 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.baidu.com valid
+2020-12-31 09:17:36,345 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.baidu.com has been connected by socket without socks proxy
+2020-12-31 09:17:36,349 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+
+2020-12-31 09:17:36,350 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:17:36,552 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:17:36,681 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): v.baidu.com:80
+2020-12-31 09:17:36,836 - connectionpool.py[line:393] - DEBUG: http://v.baidu.com:80 "GET /v?ct=301989888&rn=20&pn=0&db=0&s=25&ie=utf-8 HTTP/1.1" 302 None
+2020-12-31 09:17:37,047 - connectionpool.py[line:393] - DEBUG: http://v.baidu.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:17:39,197 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://v.baidu.com/v?ct=301989888&rn=20&pn=0&db=0&s=25&ie=utf-8', 'tags': ['小品', '曝光', '冯巩', '小宝', '明星', '同台', '全场', '郭德纲']}
+2020-12-31 09:17:39,212 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): b2b.baidu.com:443
+2020-12-31 09:17:39,983 - connectionpool.py[line:393] - DEBUG: https://b2b.baidu.com:443 "GET /s?fr=wwwt HTTP/1.1" 200 None
+2020-12-31 09:17:40,072 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://b2b.baidu.com/s?fr=wwwt', 'tags': ['高度', '白屏', '线下', '全网', '屏幕', '百度', '商家', '逻辑']}
+2020-12-31 09:17:40,095 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:17:40,345 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=%E6%9C%B1%E5%B9%BF%E6%9D%83%E6%8A%BC%E9%9F%B5%E7%89%88%E6%80%BB%E7%BB%932020&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:17:40,360 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E6%9C%B1%E5%B9%BF%E6%9D%83%E6%8A%BC%E9%9F%B5%E7%89%88%E6%80%BB%E7%BB%932020&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:17:40,386 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): beian.miit.gov.cn:443
+2020-12-31 09:17:40,762 - connectionpool.py[line:393] - DEBUG: https://beian.miit.gov.cn:443 "GET / HTTP/1.1" 521 None
+2020-12-31 09:17:40,784 - universaldetector.py[line:271] - DEBUG: no probers hit minimum threshold
+2020-12-31 09:17:40,816 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://beian.miit.gov.cn', 'tags': []}
+2020-12-31 09:17:40,828 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): haokan.baidu.com:443
+2020-12-31 09:17:41,636 - connectionpool.py[line:393] - DEBUG: https://haokan.baidu.com:443 "GET /?sfrom=baidu-top HTTP/1.1" 200 None
+2020-12-31 09:17:42,297 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://haokan.baidu.com/?sfrom=baidu-top', 'tags': ['视频', '影视音乐', '舞美', '客户端', '海葵', '综艺', '油条', '每层']}
+2020-12-31 09:17:42,306 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): wenku.baidu.com:80
+2020-12-31 09:17:42,471 - connectionpool.py[line:393] - DEBUG: http://wenku.baidu.com:80 "GET /search?lm=0&od=0&ie=utf-8 HTTP/1.1" 301 178
+2020-12-31 09:17:42,478 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): wenku.baidu.com:443
+2020-12-31 09:17:42,764 - connectionpool.py[line:393] - DEBUG: https://wenku.baidu.com:443 "GET /search?lm=0&od=0&ie=utf-8 HTTP/1.1" 302 None
+2020-12-31 09:17:43,085 - connectionpool.py[line:393] - DEBUG: https://wenku.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:17:43,483 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://wenku.baidu.com/search?lm=0&od=0&ie=utf-8', 'tags': ['格式', '精品', '图书', '文库', '特权', '会员', '入门', '福利社']}
+2020-12-31 09:17:43,503 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:17:43,831 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%9B%A0%E7%97%85%E9%80%80%E5%87%BA%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E8%B7%A8%E5%B9%B4%E6%99%9A%E4%BC%9A&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:17:43,843 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%9B%A0%E7%97%85%E9%80%80%E5%87%BA%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E8%B7%A8%E5%B9%B4%E6%99%9A%E4%BC%9A&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:17:43,862 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): xueshu.baidu.com:80
+2020-12-31 09:17:44,056 - connectionpool.py[line:393] - DEBUG: http://xueshu.baidu.com:80 "GET / HTTP/1.1" 200 None
+2020-12-31 09:17:44,356 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://xueshu.baidu.com', 'tags': ['百度', '学术', '期刊', '热门', '论文', '意见反馈', '网站', '域名']}
+2020-12-31 09:17:44,373 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.baidu.com:443
+2020-12-31 09:17:44,668 - connectionpool.py[line:393] - DEBUG: https://www.baidu.com:443 "GET /s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%A5%B3%E5%AD%90%E7%BD%91%E8%B4%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%9C%89%E4%B8%A7%E4%BA%8B%E8%87%82%E7%AB%A0&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1 HTTP/1.1" 200 227
+2020-12-31 09:17:44,688 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'https://www.baidu.com/s?cl=3&tn=baidutop10&fr=top1000&wd=%E5%A5%B3%E5%AD%90%E7%BD%91%E8%B4%AD%E7%BE%BD%E7%BB%92%E6%9C%8D%E6%9C%89%E4%B8%A7%E4%BA%8B%E8%87%82%E7%AB%A0&rsv_idx=2&rsv_dl=fyb_n_homepage&hisfilter=1', 'tags': []}
+2020-12-31 09:17:44,706 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): image.baidu.com:80
+2020-12-31 09:17:44,869 - connectionpool.py[line:393] - DEBUG: http://image.baidu.com:80 "GET /i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8 HTTP/1.1" 302 350
+2020-12-31 09:17:44,879 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): wappass.baidu.com:443
+2020-12-31 09:17:45,322 - connectionpool.py[line:393] - DEBUG: https://wappass.baidu.com:443 "GET /static/captcha/tuxing.html?&ak=5c55ec1d6f983c7c410423a63d2071b6&backurl=https%3A%2F%2Fimage.baidu.com%2Fi%3Ftn%3Dbaiduimage%26ps%3D1%26ct%3D201326592%26lm%3D-1%26cl%3D2%26nc%3D1%26ie%3Dutf-8&logid=11281028322119501004&signature=31b19b55761b027cf5b4e7e9647c8f61&timestamp=1609377465 HTTP/1.1" 200 None
+2020-12-31 09:17:45,350 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://image.baidu.com/i?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8', 'tags': ['百度', '网络', '安全', '问题']}
+2020-12-31 09:17:45,364 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): jingyan.baidu.com:443
+2020-12-31 09:17:45,787 - connectionpool.py[line:393] - DEBUG: https://jingyan.baidu.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:17:46,179 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://jingyan.baidu.com', 'tags': ['百度', '经验', '数码', '游戏', '大疆', '新手', '指南', '视频']}
+2020-12-31 09:17:46,200 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): isite.baidu.com:443
+2020-12-31 09:17:46,521 - connectionpool.py[line:393] - DEBUG: https://isite.baidu.com:443 "GET /site/e.baidu.com/d38e8023-2131-4904-adf7-a8d1108f51ef?refer=888 HTTP/1.1" 200 7283
+2020-12-31 09:17:46,964 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://isite.baidu.com/site/e.baidu.com/d38e8023-2131-4904-adf7-a8d1108f51ef?refer=888', 'tags': ['供应链', '厂商', '建材', '层面', '百度', '公司', '知名企业', '系统']}
+2020-12-31 09:17:46,984 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.hao123.com:443
+2020-12-31 09:17:47,433 - connectionpool.py[line:393] - DEBUG: https://www.hao123.com:443 "GET / HTTP/1.1" 200 None
+2020-12-31 09:17:50,555 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'https://www.hao123.com', 'tags': ['邮箱', '百度', '音乐', '视频', '搜狐', '新浪', '游戏', '手机']}
+2020-12-31 09:17:50,555 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://www.baidu.com
+2020-12-31 09:17:50,563 - NS_Utils.py[line:62] - INFO: root database closed
+2020-12-31 09:17:50,563 - _internal.py[line:88] - INFO: 127.0.0.1 - - [31/Dec/2020 09:17:50] "POST / HTTP/1.1" 200 -
+2020-12-31 09:21:16,671 - _internal.py[line:88] - INFO:  * Detected change in 'C:\\Users\\HP\\Desktop\\NjuptSpider\\NS_Utils.py', reloading

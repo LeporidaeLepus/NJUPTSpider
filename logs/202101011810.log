@@ -1,0 +1,89 @@
+2021-01-01 18:10:50,749 - NS_Utils.py[line:30] - INFO: root database connected
+2021-01-01 18:10:50,750 - NS_SpiderCore.py[line:31] - CRITICAL: Url:www.baidu.com invalid
+2021-01-01 18:10:50,751 - NS_SpiderCore.py[line:33] - CRITICAL: Url:www.baidu.com invalid after formatter
+2021-01-01 18:10:50,751 - NS_Utils.py[line:62] - INFO: root database closed
+2021-01-01 18:10:50,762 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:10:50] "POST / HTTP/1.1" 500 -
+2021-01-01 18:10:50,789 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:10:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-01-01 18:10:50,793 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:10:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-01-01 18:10:50,795 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:10:50] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2021-01-01 18:10:50,914 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:10:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:10:50,941 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:10:50] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-01-01 18:10:51,312 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:10:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:20:55,822 - NS_Utils.py[line:30] - INFO: root database connected
+2021-01-01 18:20:55,823 - NS_SpiderCore.py[line:38] - INFO: Url:http://www.njupt.edu valid
+2021-01-01 18:20:56,188 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:20:56] "POST / HTTP/1.1" 500 -
+2021-01-01 18:20:56,227 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:20:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-01-01 18:20:56,231 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:20:56] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2021-01-01 18:20:56,231 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:20:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-01-01 18:20:56,292 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:20:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:20:56,310 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:20:56] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-01-01 18:20:56,693 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:20:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:21:16,686 - NS_Utils.py[line:30] - INFO: root database connected
+2021-01-01 18:21:16,688 - NS_SpiderCore.py[line:38] - INFO: Url:http://www.njupt.edu.cn valid
+2021-01-01 18:21:16,727 - NS_SpiderCore.py[line:78] - INFO: Url:http://www.njupt.edu.cn has been connected by socket without socks proxy
+2021-01-01 18:21:16,728 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+67c005a205110d21f213341245310a882b695c49590be40191366057ad29216c
+8830acb1e397580af770506ccd7359516849206cd91cd8039af7da8b12de139c
+7b29de4b4af9ed349f35356f352e1f4ff5ed158f9d4b18c8d7458d4998231b07
+ba02330de67933baeaaa761528b7d00edd8d8938971f4f18ae5014ffd0350f94
+c8a86c081bbee17a90b938524f146a852c5d57103357281f0a5762c800be4edd
+c8eeb00ac4dc275386a0c0a7364e38a580aa141fc3ec07727a34c1a3e8933f0c
+0908a2515827c00abeba83310910f95768547c43f225279ad50541671a604d70
+bf2a5d1eee3825d7032fbd01dd8758d2d05206db04ed168876992439f1c64ec4
+06ad72f1f0cf66da6fc4828c61a2181090f45d437e2a0e556c702281d0cd2017
+
+2021-01-01 18:21:16,732 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2021-01-01 18:21:16,791 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET / HTTP/1.1" 200 14869
+2021-01-01 18:21:16,857 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2021-01-01 18:21:16,921 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET / HTTP/1.1" 200 14869
+2021-01-01 18:21:17,137 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn', 'tags': ['南邮', '邮电大学', '校区', '研究生', '专题', '南京', '全国', '校园']}
+2021-01-01 18:21:17,148 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2021-01-01 18:21:17,201 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /53/list.htm HTTP/1.1" 200 7887
+2021-01-01 18:21:17,322 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/53/list.htm', 'tags': ['南邮', '要闻', '校区', '页码', '研究生', '邮编', '江苏省', '大学生']}
+2021-01-01 18:21:17,333 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2021-01-01 18:21:17,381 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /124/list.htm HTTP/1.1" 200 6275
+2021-01-01 18:21:17,447 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/124/list.htm', 'tags': ['南邮', '校园文化', '校区', '邮编', '宋体', '南京市', '校园', '专题']}
+2021-01-01 18:21:17,456 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2021-01-01 18:21:17,517 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /26/list.htm HTTP/1.1" 200 8302
+2021-01-01 18:21:17,596 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/26/list.htm', 'tags': ['办公室', '南邮', '党政群', '办公', '研究生', '中心', '部门', '校区']}
+2021-01-01 18:21:17,608 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.njupt.edu.cn:80
+2021-01-01 18:21:17,663 - connectionpool.py[line:393] - DEBUG: http://www.njupt.edu.cn:80 "GET /2020/1231/c53a179778/page.htm HTTP/1.1" 200 11743
+2021-01-01 18:21:17,850 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 0, 'url': 'http://www.njupt.edu.cn/2020/1231/c53a179778/page.htm', 'tags': ['辅导员', '南邮', '大赛', '素质', '一等奖', '能力', '高校', '工程']}
+2021-01-01 18:21:17,858 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): campus.njupt.edu.cn:80
+2021-01-01 18:21:17,955 - connectionpool.py[line:393] - DEBUG: http://campus.njupt.edu.cn:80 "GET / HTTP/1.1" 200 1108
+2021-01-01 18:21:17,962 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://campus.njupt.edu.cn/', 'tags': ['邮电大学', '实景', '南京']}
+2021-01-01 18:21:17,964 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.pgzx.edu.cn:80
+2021-01-01 18:21:18,008 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:18] "POST / HTTP/1.1" 500 -
+2021-01-01 18:21:18,043 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:18] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-01-01 18:21:18,046 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:18] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2021-01-01 18:21:18,047 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:18] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-01-01 18:21:18,120 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:18] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:21:18,137 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:18] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-01-01 18:21:18,304 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:18] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:21:33,050 - NS_Utils.py[line:30] - INFO: root database connected
+2021-01-01 18:21:33,051 - NS_SpiderCore.py[line:38] - INFO: Url:http://www.njupt.edu valid
+2021-01-01 18:21:33,324 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:33] "POST / HTTP/1.1" 500 -
+2021-01-01 18:21:33,364 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:33] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-01-01 18:21:33,370 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:33] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2021-01-01 18:21:33,372 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:33] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-01-01 18:21:33,421 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:21:33,437 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:33] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-01-01 18:21:33,581 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:21:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:22:03,150 - NS_Utils.py[line:30] - INFO: root database connected
+2021-01-01 18:22:03,151 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.baidu valid
+2021-01-01 18:22:03,170 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "POST / HTTP/1.1" 500 -
+2021-01-01 18:22:03,208 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2021-01-01 18:22:03,210 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2021-01-01 18:22:03,223 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2021-01-01 18:22:03,282 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:22:03,301 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2021-01-01 18:22:03,447 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 18:22:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2021-01-01 18:59:02,169 - _internal.py[line:88] - INFO:  * Detected change in 'C:\\Users\\HP\\Desktop\\NjuptSpider\\NS_main.py', reloading

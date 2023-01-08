@@ -1,0 +1,50 @@
+2021-01-01 16:21:01,038 - NS_Utils.py[line:30] - INFO: root database connected
+2021-01-01 16:21:01,039 - NS_SpiderCore.py[line:38] - INFO: Url:https://www.sogou.com valid
+2021-01-01 16:21:01,065 - NS_SpiderCore.py[line:78] - INFO: Url:https://www.sogou.com has been connected by socket without socks proxy
+2021-01-01 16:21:01,066 - NS_Utils.py[line:40] - INFO: 
+17aca6fc883c82cb2e0f1c0399def1cbef77028e96db9c0f503daaa244074037
+352334d652010ed1daced0e73dce9fcba27de4e95e28537010eaf6953b53c4c6
+57dccbd875bb1b7455208a26868c23d72002d64dfa960d590a626d7d33f4847d
+3462ce3d5ebc7e4ebc972678b6fbec2d4c9fa603041d3e2caa1e3ecec3f6de08
+dd1990ad821e0cc0faedcd9a9d62c346da869cae90e3eb021df5021c108711b6
+bc5c3283cae3c6567656b6a52bd8b31a806da655336169b611ad9ab790581364
+c9438902b5d75a13b9dcb288c92ccbf3fb89adcf93b1000951b31193c07af4b3
+88fbfe4a94c95a788b08e3a0cc101734227be8280712314aae48e37cddb8517a
+67c005a205110d21f213341245310a882b695c49590be40191366057ad29216c
+8830acb1e397580af770506ccd7359516849206cd91cd8039af7da8b12de139c
+7b29de4b4af9ed349f35356f352e1f4ff5ed158f9d4b18c8d7458d4998231b07
+ba02330de67933baeaaa761528b7d00edd8d8938971f4f18ae5014ffd0350f94
+c8a86c081bbee17a90b938524f146a852c5d57103357281f0a5762c800be4edd
+c8eeb00ac4dc275386a0c0a7364e38a580aa141fc3ec07727a34c1a3e8933f0c
+0908a2515827c00abeba83310910f95768547c43f225279ad50541671a604d70
+bf2a5d1eee3825d7032fbd01dd8758d2d05206db04ed168876992439f1c64ec4
+06ad72f1f0cf66da6fc4828c61a2181090f45d437e2a0e556c702281d0cd2017
+
+2021-01-01 16:21:01,069 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.sogou.com:443
+2021-01-01 16:21:01,196 - connectionpool.py[line:393] - DEBUG: https://www.sogou.com:443 "GET / HTTP/1.1" 200 None
+2021-01-01 16:21:01,208 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): gouwu.sogou.com:80
+2021-01-01 16:21:01,248 - connectionpool.py[line:393] - DEBUG: http://gouwu.sogou.com:80 "GET / HTTP/1.1" 200 None
+2021-01-01 16:21:01,271 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://gouwu.sogou.com/', 'tags': ['搜狗', '购物', '比价', '图片', '输入法', '网购', '扫码', '浏览器']}
+2021-01-01 16:21:01,272 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): map.sogou.com:80
+2021-01-01 16:21:01,318 - connectionpool.py[line:393] - DEBUG: http://map.sogou.com:80 "GET / HTTP/1.1" 200 20390
+2021-01-01 16:21:01,427 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://map.sogou.com', 'tags': ['地图', '搜狗', '电子地图', '高清', '页面', '网页', '手机', '卫星']}
+2021-01-01 16:21:01,428 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.12377.cn:80
+2021-01-01 16:21:01,528 - connectionpool.py[line:393] - DEBUG: http://www.12377.cn:80 "GET / HTTP/1.1" 301 None
+2021-01-01 16:21:01,600 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): www.12377.cn:443
+2021-01-01 16:21:01,813 - connectionpool.py[line:393] - DEBUG: https://www.12377.cn:443 "GET / HTTP/1.1" 200 None
+2021-01-01 16:21:01,975 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.12377.cn', 'tags': ['网信', '网络', '辟谣', '信息', '中华人民共和国', '指南', '电信', '小类']}
+2021-01-01 16:21:01,976 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): fanyi.sogou.com:80
+2021-01-01 16:21:02,081 - connectionpool.py[line:393] - DEBUG: http://fanyi.sogou.com:80 "GET /?fr=common_index_nav_pc HTTP/1.1" 200 None
+2021-01-01 16:21:02,277 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://fanyi.sogou.com?fr=common_index_nav_pc', 'tags': ['丈夫', '词典', '牛津', '搜狗', '老公', '自动检测', '家庭成员', '农活']}
+2021-01-01 16:21:02,280 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): b.sogou.com:80
+2021-01-01 16:21:02,420 - connectionpool.py[line:393] - DEBUG: http://b.sogou.com:80 "GET / HTTP/1.1" 302 62
+2021-01-01 16:21:02,427 - connectionpool.py[line:823] - DEBUG: Starting new HTTPS connection (1): b.sogou.com:443
+2021-01-01 16:21:02,602 - connectionpool.py[line:393] - DEBUG: https://b.sogou.com:443 "GET /pca/ HTTP/1.1" 200 None
+2021-01-01 16:21:02,664 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://b.sogou.com/', 'tags': ['场景', '搜狗', '精准', '广告', '输入法', '客户', '聊天', '日语']}
+2021-01-01 16:21:02,666 - connectionpool.py[line:205] - DEBUG: Starting new HTTP connection (1): www.beian.gov.cn:80
+2021-01-01 16:21:02,764 - connectionpool.py[line:393] - DEBUG: http://www.beian.gov.cn:80 "GET /portal/registerSystemInfo?recordcode=11000002000025 HTTP/1.1" 200 13541
+2021-01-01 16:21:02,918 - NS_SpiderCore.py[line:170] - INFO: {'url_type': 1, 'url': 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000025', 'tags': ['网站', '备案号', '验证码', '域名', '名称', '公安部', '备案', '地址']}
+2021-01-01 16:21:02,919 - NS_SpiderCore.py[line:172] - INFO: Spider once towards https://www.sogou.com
+2021-01-01 16:21:02,919 - NS_Utils.py[line:62] - INFO: root database closed
+2021-01-01 16:21:02,919 - _internal.py[line:88] - INFO: 127.0.0.1 - - [01/Jan/2021 16:21:02] "POST / HTTP/1.1" 200 -
+2021-01-01 17:47:56,670 - _internal.py[line:88] - INFO:  * Detected change in 'C:\\Users\\HP\\Desktop\\NjuptSpider\\NS_Utils.py', reloading
