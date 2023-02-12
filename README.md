@@ -1,13 +1,9 @@
 # README
 
-- [README](#readme)
-  - [Introduction](#introduction)
-    - [System Design](#system-design)
-    - [Storage](#storage)
-  - [Preview](#preview)
-    - [The Input Field](#the-input-field)
-    - [The Result Field](#the-result-field)
-  - [Installation](#installation)
+<!-- no toc -->
+- [Introduction](#introduction)
+- [Preview](#preview)
+- [Installation](#installation)
 
 ## Introduction
 
