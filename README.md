@@ -1,5 +1,14 @@
 # README
 
+- [README](#readme)
+  - [Introduction](#introduction)
+    - [System Design](#system-design)
+    - [Storage](#storage)
+  - [Preview](#preview)
+    - [The Input Field](#the-input-field)
+    - [The Result Field](#the-result-field)
+  - [Installation](#installation)
+
 ## Introduction
 
 This is a full-stack Web Crawler web application whose back-end is developedd by Python and front-end is developed by HTML and CSS. The main features of his Web Crawler includes:
@@ -31,4 +40,4 @@ After the scrawling is finished, the results will be export and stored into a .l
 
 ## Installation
 
-If you want to run this application, install Python environment in your local machine first. Then download this repository and run the NS_main.py file in your Python IDE.
+If you want to run this application, install Python environment in your local machine first. Then download this repository and run the `NS_main.py` file in your Python IDE.
